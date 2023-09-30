@@ -1,0 +1,2736 @@
+fileFormatVersion: 2
+guid: d8953eb08110ce44db71e558c0c498e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy The Abyss_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1824
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445224efc3846af4b935541ba4203379
+      internalID: 1476584285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1824
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fbb8d25a80e8b49ab1c696ed89b2a0
+      internalID: -1648865303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1824
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5422267c98b781b40bb1f908a75d2c57
+      internalID: -2048427518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1824
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16001a2454adbd489fdb1b0076717f6
+      internalID: -1003604261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1824
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a25024816638f4aa2f85802d7c7bd4
+      internalID: 2048433113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ac99269031afa409851dbf3b8ec74f
+      internalID: -574291097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1728
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d6e7cd86f3bae4da4c64a8f04a1298
+      internalID: -895116075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1728
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6af5b2c5ee2e3a40a57bb3ef1b63851
+      internalID: 502060723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1728
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4f1c58b39bff446a6351340342ff6c
+      internalID: 1917161523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1728
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f53b01312644c8488fa1b490f2fffa3
+      internalID: -826903580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1728
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a267e40d5474f44db6acec7db63de9c
+      internalID: 1490748437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1728
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20df4fc72510b541848a046a15a9c17
+      internalID: -142721487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1728
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668b4ad0bd4c4c74d850d6f2e13864b7
+      internalID: 1531921234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9b8010d9fd34f47bdb88ca87326a02
+      internalID: 1010682466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1632
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e844c8bdfafad7f41942577fd3c9fde1
+      internalID: 198123769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1632
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7557c85c6c6014d8ad26333634f47c
+      internalID: 173773161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1632
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b971152e311e48b8f1274bd774061
+      internalID: 1610865303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1632
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae37040de29a45947b92e97307ce638e
+      internalID: -1216194273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1b744b905f9754da99edbf0cea8ab6
+      internalID: -1393117811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7f436c1d333274c93df8c510ed6e1e
+      internalID: -1445440626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade37c2bf3d78b44a914c7bbba718a19
+      internalID: 835095580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eaede8249a5c74e8fea33d6622da30
+      internalID: 137146272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a9df7bb3ff5e4097614dce3bf2ae9
+      internalID: -1892414811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_23
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2078401bc9667754180fd75abcc08a9c
+      internalID: 1738238280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed20e6d2594215242894ef0332f5a86a
+      internalID: -736867438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_25
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79311b4c8ef1cd944a669dd50995b66b
+      internalID: 1890394615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f23db990c56074bbdd8b3f318c50c7
+      internalID: -874063136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a53fcfd0642484da6bc56338cc5868
+      internalID: -492900952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1440
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8264fe9e33fb93040b1dee8207ddc19b
+      internalID: 1086068083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1440
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a59890e613e74648946cf4d2f9803f2
+      internalID: 945400998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1440
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5739c143611ec499f0f4a874cc1640
+      internalID: 380693825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1440
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf6c5270ca72ca499f065e0031c1988
+      internalID: 855347962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5352f6d107fac4087505705faad028
+      internalID: 56587062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1344
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96944a40e6b401b448131f14c34dfbd5
+      internalID: -877584765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1344
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f128ea3b9510a43b7fb71b0c4a876a
+      internalID: -88145461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1344
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed0ab8a8671e4940a77434552369609
+      internalID: -1591350183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ea6c89f6315f4449a3d4683aa02d57
+      internalID: -402612902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1344
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a3184558af2e646b85b1310b56a37b
+      internalID: -107182767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898a4031e225b8b43b367d1e7febba58
+      internalID: 1000865086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1790dfe15b5a04043b6ce6cd95a69e7b
+      internalID: -2087864250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dca785d68c96734e8a5766001ee034d
+      internalID: 1139407885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9338a3afc7ff19e4cb30b1c6dd711a14
+      internalID: -1083929736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81770fd4bf87d8f4f922abf04a6f4ba7
+      internalID: 2048627260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9e322625c143f4ca59c85a4a0d37cd
+      internalID: -434239498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_44
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbe405b46a0551429aa1167c0636653
+      internalID: -1894138768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_45
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa433235c98a2e4eae66f3750842311
+      internalID: -547972736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1248
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3f154a99fdfc142819278245f9054d
+      internalID: -1722034471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bad6106aa5f1a48a32a2fb31d11a38
+      internalID: 39062231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1152
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdc962905cd1c5469886b845d5b225b
+      internalID: 1635484220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b296148c36f4e4abc306fcf838d5d2
+      internalID: 1091471538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ea5000f2485ad4c82827fa2d0d0d5b
+      internalID: -1410219383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1056
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e23562348b05f14aa6836baff36df7d
+      internalID: 1351384793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1056
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9183ea77fe6d441b7a99707e696682
+      internalID: -2045823135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90589066ea807e4ea86125c37c7f51c
+      internalID: -2097299889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 960
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e68a63666ce9bf4b940b7e7ce528542
+      internalID: -979094826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9338d0229f5924eab4b713e9f66abc
+      internalID: -180100802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 960
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4c883c276f91345955d9e53c6bbd7b
+      internalID: -1246625743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0142b84cdb89e640ae96e0a07e6f1c4
+      internalID: 167298151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_58
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a80b8c06ddc26498dc9712d221e182
+      internalID: 477806633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095c852d7a60eec45b25b3e086455cdc
+      internalID: 995216846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 864
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e653fa356af564d8d6cdc09a38ce1b
+      internalID: 1631133735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 864
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193801e7d90cde046b5511e2b0fc582e
+      internalID: 477062005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 864
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1729c03f279e0a4cb9690153a1ff6b4
+      internalID: 1434366041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ab41fa8c009c84bbb6c26a2eb29dd9
+      internalID: 961565899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2988177150d230445930c9d0abe8eedc
+      internalID: -1077862268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 768
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c90d47b1b4e249966cace40c06f95
+      internalID: 954378606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4e65ae3cd38de4a84cd02ab29f4bcf
+      internalID: -1413952069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_67
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 768
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1ad79a77282f549b0c98da52c4431c
+      internalID: -557784712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32709b5c6f1008e469c693e85bbf3a15
+      internalID: -1196533286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_69
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a06f443c00a8b3439f373294b21401e
+      internalID: -819493673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd25d9dc4bef2db42aadd37843e162b9
+      internalID: 1264445883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_71
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 768
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaac1800df86a943b2ca1084f58c294
+      internalID: -1154555311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fb3070e13b9fb41ad4b1bf1a08a934
+      internalID: 1020408872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c11dc86636137a4ea39ec184110d9f0
+      internalID: 1726991151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb8bb794e8c4e04886a4e3a27370cfb
+      internalID: 1789590406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d28578d1ba28ad47a6779eed56c05dc
+      internalID: -164840317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3edce65d202fe64b9e8692bd422bfbf
+      internalID: -737304375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7c37932133f904d93020120d2bde43
+      internalID: 458449404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75df51b17269d2c46952bb39f92b7906
+      internalID: -1050947619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063e999783c65174d940572790b83009
+      internalID: -867017048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_80
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87d29df1e567014899fac2d08d602c3
+      internalID: 2076222960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153ac4943517b5d4681ecbed2dace807
+      internalID: -470705182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_82
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505a3ad75fc021b48be77c581c1dff53
+      internalID: -661181267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_83
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4c61b83e4471345ae945f604715435
+      internalID: 1918429581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_84
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a1341351bb2f84aa1bbb1491487bf9
+      internalID: 5304799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_85
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814506bfdd4bed34d9771c629bb8d5c6
+      internalID: 1666554165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afa891c150d8a94eb568a780ffc5022
+      internalID: 1156218371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6583139466267074480b355d2e86f036
+      internalID: 1726880590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_88
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e725b49f4fc9e946b7194e34b2195d2
+      internalID: -1642075615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2159eb0f4bb1c9f44965893b71c6e2d7
+      internalID: 1406594365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b2de3915e358243a5607e13d7d4348
+      internalID: 161770684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a04c21a59ef0944b8ff4130c155763
+      internalID: 298273177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d54fbe60f16a4ba352c7994c84ecf
+      internalID: -1852133866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820492405c4547e4887590a3c6ce8f24
+      internalID: 1812926977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_94
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da053fe41c635024684d82923c081afe
+      internalID: 1326565973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_95
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432347eadc13314683d7c560514f877
+      internalID: -2130596982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_96
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dde80c3bd70bdb46b2b864b3691579c
+      internalID: -27433658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29377ba64b1054048a5ebb2bfb5bc166
+      internalID: -639928407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ee02eb86fce114385c71795a6a5c8a
+      internalID: -846048388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20045e1ff22af94439a4149252cebc82
+      internalID: -935034849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_100
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6649ff0872357284e97103a4c62c63b2
+      internalID: 684137603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_101
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ff83e52f9f509448957564aa7ecdc3
+      internalID: 2071861191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_102
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78301652246abd489a465684b788bed
+      internalID: 866946120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_103
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403b08c01d5f1ab4d81841ba9105cdf8
+      internalID: 1185971365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_104
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c862f2476600874d8f119927c73e638
+      internalID: -1622970460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_105
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726d6cbf642e03948888ea7e19a604be
+      internalID: -840963380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224c770f9b818bf40a8f135ba963283b
+      internalID: 1981485121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9668429672c5c7d4ca8a7f730503fb0a
+      internalID: 835875838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6750c9e7da730a4c9013620165702c4
+      internalID: 1478872435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc85e60f104fb984c857f551bc3ff8f7
+      internalID: -1643435911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_110
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dc16b33cc222d48b70b448648ba2ea
+      internalID: -2097634716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a04959c40d22a40b2a3dcde207415d
+      internalID: -1425815230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d126154f304c24cb76ca72e744d370
+      internalID: -517879538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a124afffc9c7146b845626bc24c038
+      internalID: -2064606275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd55ecc448579f4e862149d2ff84c12
+      internalID: 1910037810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_115
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7513c9cf8095fa54d80dfb05933d46ad
+      internalID: -2077375685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_116
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7623a357a34ea43b1a354c6183ad6a
+      internalID: 1177576241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy The Abyss_117
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96.44444
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f5743529d83a849848cf957f46d59b
+      internalID: 1123510219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy The Abyss_0: 1476584285
+      Enemy The Abyss_1: -1648865303
+      Enemy The Abyss_10: 1490748437
+      Enemy The Abyss_100: 684137603
+      Enemy The Abyss_101: 2071861191
+      Enemy The Abyss_102: 866946120
+      Enemy The Abyss_103: 1185971365
+      Enemy The Abyss_104: -1622970460
+      Enemy The Abyss_105: -840963380
+      Enemy The Abyss_106: 1981485121
+      Enemy The Abyss_107: 835875838
+      Enemy The Abyss_108: 1478872435
+      Enemy The Abyss_109: -1643435911
+      Enemy The Abyss_11: -142721487
+      Enemy The Abyss_110: -2097634716
+      Enemy The Abyss_111: -1425815230
+      Enemy The Abyss_112: -517879538
+      Enemy The Abyss_113: -2064606275
+      Enemy The Abyss_114: 1910037810
+      Enemy The Abyss_115: -2077375685
+      Enemy The Abyss_116: 1177576241
+      Enemy The Abyss_117: 1123510219
+      Enemy The Abyss_12: 1531921234
+      Enemy The Abyss_13: 1010682466
+      Enemy The Abyss_14: 198123769
+      Enemy The Abyss_15: 173773161
+      Enemy The Abyss_16: 1610865303
+      Enemy The Abyss_17: -1216194273
+      Enemy The Abyss_18: -1393117811
+      Enemy The Abyss_19: -1445440626
+      Enemy The Abyss_2: -2048427518
+      Enemy The Abyss_20: 835095580
+      Enemy The Abyss_21: 137146272
+      Enemy The Abyss_22: -1892414811
+      Enemy The Abyss_23: 1738238280
+      Enemy The Abyss_24: -736867438
+      Enemy The Abyss_25: 1890394615
+      Enemy The Abyss_26: -874063136
+      Enemy The Abyss_27: -492900952
+      Enemy The Abyss_28: 1086068083
+      Enemy The Abyss_29: 945400998
+      Enemy The Abyss_3: -1003604261
+      Enemy The Abyss_30: 380693825
+      Enemy The Abyss_31: 855347962
+      Enemy The Abyss_32: 56587062
+      Enemy The Abyss_33: -877584765
+      Enemy The Abyss_34: -88145461
+      Enemy The Abyss_35: -1591350183
+      Enemy The Abyss_36: -402612902
+      Enemy The Abyss_37: -107182767
+      Enemy The Abyss_38: 1000865086
+      Enemy The Abyss_39: -2087864250
+      Enemy The Abyss_4: 2048433113
+      Enemy The Abyss_40: 1139407885
+      Enemy The Abyss_41: -1083929736
+      Enemy The Abyss_42: 2048627260
+      Enemy The Abyss_43: -434239498
+      Enemy The Abyss_44: -1894138768
+      Enemy The Abyss_45: -547972736
+      Enemy The Abyss_46: -1722034471
+      Enemy The Abyss_47: 39062231
+      Enemy The Abyss_48: 1635484220
+      Enemy The Abyss_49: 1091471538
+      Enemy The Abyss_5: -574291097
+      Enemy The Abyss_50: -1410219383
+      Enemy The Abyss_51: 1351384793
+      Enemy The Abyss_52: -2045823135
+      Enemy The Abyss_53: -2097299889
+      Enemy The Abyss_54: -979094826
+      Enemy The Abyss_55: -180100802
+      Enemy The Abyss_56: -1246625743
+      Enemy The Abyss_57: 167298151
+      Enemy The Abyss_58: 477806633
+      Enemy The Abyss_59: 995216846
+      Enemy The Abyss_6: -895116075
+      Enemy The Abyss_60: 1631133735
+      Enemy The Abyss_61: 477062005
+      Enemy The Abyss_62: 1434366041
+      Enemy The Abyss_63: 961565899
+      Enemy The Abyss_64: -1077862268
+      Enemy The Abyss_65: 954378606
+      Enemy The Abyss_66: -1413952069
+      Enemy The Abyss_67: -557784712
+      Enemy The Abyss_68: -1196533286
+      Enemy The Abyss_69: -819493673
+      Enemy The Abyss_7: 502060723
+      Enemy The Abyss_70: 1264445883
+      Enemy The Abyss_71: -1154555311
+      Enemy The Abyss_72: 1020408872
+      Enemy The Abyss_73: 1726991151
+      Enemy The Abyss_74: 1789590406
+      Enemy The Abyss_75: -164840317
+      Enemy The Abyss_76: -737304375
+      Enemy The Abyss_77: 458449404
+      Enemy The Abyss_78: -1050947619
+      Enemy The Abyss_79: -867017048
+      Enemy The Abyss_8: 1917161523
+      Enemy The Abyss_80: 2076222960
+      Enemy The Abyss_81: -470705182
+      Enemy The Abyss_82: -661181267
+      Enemy The Abyss_83: 1918429581
+      Enemy The Abyss_84: 5304799
+      Enemy The Abyss_85: 1666554165
+      Enemy The Abyss_86: 1156218371
+      Enemy The Abyss_87: 1726880590
+      Enemy The Abyss_88: -1642075615
+      Enemy The Abyss_89: 1406594365
+      Enemy The Abyss_9: -826903580
+      Enemy The Abyss_90: 161770684
+      Enemy The Abyss_91: 298273177
+      Enemy The Abyss_92: -1852133866
+      Enemy The Abyss_93: 1812926977
+      Enemy The Abyss_94: 1326565973
+      Enemy The Abyss_95: -2130596982
+      Enemy The Abyss_96: -27433658
+      Enemy The Abyss_97: -639928407
+      Enemy The Abyss_98: -846048388
+      Enemy The Abyss_99: -935034849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
