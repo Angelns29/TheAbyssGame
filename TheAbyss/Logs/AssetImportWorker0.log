@@ -15,7 +15,7 @@ F:/DAM/2/M17 Programacion Videojuegos/TheAbyss
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50156
+51704
 Successfully changed project path to: F:/DAM/2/M17 Programacion Videojuegos/TheAbyss
 F:/DAM/2/M17 Programacion Videojuegos/TheAbyss
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ F:/DAM/2/M17 Programacion Videojuegos/TheAbyss
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10388] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 411110471 [EditorId] 411110471 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0956UMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19836] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 429889013 [EditorId] 429889013 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0956UMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10388] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 411110471 [EditorId] 411110471 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0956UMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19836] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 429889013 [EditorId] 429889013 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0956UMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 12.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path E:/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'E:/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'E:/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003292 seconds.
-- Loaded All Assemblies, in  0.379 seconds
+Registered in 0.003661 seconds.
+- Loaded All Assemblies, in  0.373 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 283 ms
+Android Extension - Scanning For ADB Devices 322 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.646 seconds
-Domain Reload Profiling: 1026ms
+- Finished resetting the current domain, in  0.682 seconds
+Domain Reload Profiling: 1055ms
 	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (114ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (138ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (647ms)
+	FinalizeReload (682ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (584ms)
+		SetupLoadedEditorAssemblies (620ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (407ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (454ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (116ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1026ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.619 seconds
-Refreshing native plugins compatible for Editor in 6.27 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.725 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.624 seconds
-Domain Reload Profiling: 1243ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1388ms
+	BeginReloadAssembly (175ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (383ms)
-		LoadAssemblies (289ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (454ms)
+		LoadAssemblies (350ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (134ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (624ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (663ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (435ms)
+		SetupLoadedEditorAssemblies (471ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (311ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.84 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4006 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (244.7 KB). Loaded Objects now: 4465.
-Memory consumption went from 141.9 MB to 141.6 MB.
-Total: 3.722700 ms (FindLiveObjects: 0.454700 ms CreateObjectMapping: 0.217000 ms MarkObjects: 2.831100 ms  DeleteObjects: 0.218300 ms)
+Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (244.9 KB). Loaded Objects now: 4513.
+Memory consumption went from 146.6 MB to 146.4 MB.
+Total: 4.309100 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.225500 ms MarkObjects: 3.406200 ms  DeleteObjects: 0.236800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,974 +184,923 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1606.363208 seconds.
-  path: Assets/TileSet/Tiles
-  artifactKey: Guid(0512c8d5aeceeab4fac04a23d998fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles using Guid(0512c8d5aeceeab4fac04a23d998fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e1edb79f4ef9417afd9ef9d9be1d3e') in 0.002629 seconds
+  Time since last request: 14612.085793 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.002732 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.941751 seconds.
-  path: Assets/TileSet/Bakground
-  artifactKey: Guid(6f2bc4f1c7f3d1e4d953b186c1b2a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Bakground using Guid(6f2bc4f1c7f3d1e4d953b186c1b2a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac2c37b8038d26f842c75250db62a9d') in 0.000813 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras
+  artifactKey: Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras using Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b59ce647324de142d2ae9f3d85a410') in 0.000513 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 30.657622 seconds.
-  path: Assets/TileSet/Background
-  artifactKey: Guid(6f2bc4f1c7f3d1e4d953b186c1b2a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Background using Guid(6f2bc4f1c7f3d1e4d953b186c1b2a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c985605e99677a736a88f774a263360b') in 0.000851 seconds
+  Time since last request: 11.563961 seconds.
+  path: Assets/UI
+  artifactKey: Guid(53afa5ece3c540e4c81b8b1ffc0111a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI using Guid(53afa5ece3c540e4c81b8b1ffc0111a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450c8c8e14cd4422ec70afbe3d542967') in 0.000501 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.939023 seconds.
-  path: Assets/TileSet/Background/ParallaxCave1.png
-  artifactKey: Guid(f598341b2806cfd4b9849ae168182f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Background/ParallaxCave1.png using Guid(f598341b2806cfd4b9849ae168182f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d3001677ff6c374430d5aa1e0b6a12') in 0.073314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/TileSet/Background/ParallaxCave3.png
-  artifactKey: Guid(f4812f8fa530f254f918cb81229a4b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Background/ParallaxCave3.png using Guid(f4812f8fa530f254f918cb81229a4b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca7b258813b8d6bb6d50991455c32aa') in 0.013043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 31.689783 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest.png
-  artifactKey: Guid(507ca97a93caf8345b7d3a094fb8e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest.png using Guid(507ca97a93caf8345b7d3a094fb8e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5976c7f8b3a6d94e0ea7167f06f121cf') in 0.036501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 11.010788 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest.png
-  artifactKey: Guid(507ca97a93caf8345b7d3a094fb8e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest.png using Guid(507ca97a93caf8345b7d3a094fb8e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56173c73a91ddec0354076bb700f556f') in 0.011755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 57.000725 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest.png
-  artifactKey: Guid(507ca97a93caf8345b7d3a094fb8e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest.png using Guid(507ca97a93caf8345b7d3a094fb8e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a50b19560dcfffd3fe63a59372bea8a') in 0.632865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 227
-========================================================================
-Received Import Request.
-  Time since last request: 55.489115 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_0.asset
-  artifactKey: Guid(5957231a343929044a471589e798e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_0.asset using Guid(5957231a343929044a471589e798e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8cd0196f76beba7c21d9742f388f28') in 0.011359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_3.asset
-  artifactKey: Guid(e2e19b54182e72645acae6de1359a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_3.asset using Guid(e2e19b54182e72645acae6de1359a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cca342f5208bb1d33b76cfe5eb63fc') in 0.031936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_47.asset
-  artifactKey: Guid(be564655a6c63c5488b2fd50da1a82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_47.asset using Guid(be564655a6c63c5488b2fd50da1a82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df343b9e7efeac883b6b14d9b6868758') in 0.027103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_46.asset
-  artifactKey: Guid(6f5ae9dcc5127d5418cfb0416bb390f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_46.asset using Guid(6f5ae9dcc5127d5418cfb0416bb390f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e6295df3d3597c84669b581c4918bb') in 0.007145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_31.asset
-  artifactKey: Guid(7a4e9f62cc420564ab86096c9d02c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_31.asset using Guid(7a4e9f62cc420564ab86096c9d02c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3052861a8f07a89170f1e92ddd96ec2b') in 0.008665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_39.asset
-  artifactKey: Guid(e9d21d9695deea34cb59db2174c78c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_39.asset using Guid(e9d21d9695deea34cb59db2174c78c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a78f9c0cec5eadb803c5a9fdf7661f') in 0.006237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_36.asset
-  artifactKey: Guid(cd3a2dd98a1ea24489d9545e28f9a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_36.asset using Guid(cd3a2dd98a1ea24489d9545e28f9a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725578916848c5108956b335d1995ae0') in 0.036564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_28.asset
-  artifactKey: Guid(908f913129af2b94a8bb7df3e7cf5de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_28.asset using Guid(908f913129af2b94a8bb7df3e7cf5de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0188429519044be353d8461fd17eb026') in 0.006348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_13.asset
-  artifactKey: Guid(d829960bc6749e143a9aa692b196612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_13.asset using Guid(d829960bc6749e143a9aa692b196612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139e86eae16fa6d8ed80f9d52c11b809') in 0.007623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_50.asset
-  artifactKey: Guid(f79deab401fb45749a8dc7ac09d34712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_50.asset using Guid(f79deab401fb45749a8dc7ac09d34712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e6de438dc542efb142f99e7bde6cc5') in 0.006656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_11.asset
-  artifactKey: Guid(d01586b06ba2caf4fabce9d9af2827f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_11.asset using Guid(d01586b06ba2caf4fabce9d9af2827f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d1949c0b74d07c446d5748ca11cfe7') in 0.007395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_45.asset
-  artifactKey: Guid(009eb6050f9770b4c949c60bd6f38606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_45.asset using Guid(009eb6050f9770b4c949c60bd6f38606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2838588c42fe1ea276aed5896358b9') in 0.006609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_55.asset
-  artifactKey: Guid(365117b4171c0a54c85c8b6a5e394d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_55.asset using Guid(365117b4171c0a54c85c8b6a5e394d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d538029f71a92ba98f6ba377e7fd69') in 0.021649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_12.asset
-  artifactKey: Guid(c973d0fd8f03e43419df4bd9bf3210a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_12.asset using Guid(c973d0fd8f03e43419df4bd9bf3210a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c33bc109bb1942d8374a5aaac65be6') in 0.006257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_10.asset
-  artifactKey: Guid(ce96a6c0172e1b24b95625a5f3c54500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_10.asset using Guid(ce96a6c0172e1b24b95625a5f3c54500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37d97510e3d2a251517852a44117b82') in 0.006469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_21.asset
-  artifactKey: Guid(8f4d39be57907c44d98095dba4d370a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_21.asset using Guid(8f4d39be57907c44d98095dba4d370a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cd6b3eef85da672f8a4d58230e52ad') in 0.007182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_48.asset
-  artifactKey: Guid(08ee8c93bd4e9c742ada880e71c90010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_48.asset using Guid(08ee8c93bd4e9c742ada880e71c90010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2368846e47745c39243541a0868e16a4') in 0.005841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_2.asset
-  artifactKey: Guid(5009060df3bfe5c42842d56e318ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_2.asset using Guid(5009060df3bfe5c42842d56e318ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16083570cf126857e3230302701809e5') in 0.006980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_26.asset
-  artifactKey: Guid(efc32918678da0e418c419c2ec2e7613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_26.asset using Guid(efc32918678da0e418c419c2ec2e7613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3a08f870e16f78019f6ead132eda83') in 0.006829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_43.asset
-  artifactKey: Guid(eb995fc8a04ef904396d023115c0118c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_43.asset using Guid(eb995fc8a04ef904396d023115c0118c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352fec762fd757e07e7a114275dfc64a') in 0.005611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_41.asset
-  artifactKey: Guid(ad5e2ee80810c084fa34710db0e24565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_41.asset using Guid(ad5e2ee80810c084fa34710db0e24565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c32de14d3fe388c760fbaef764d37c5') in 0.006671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_51.asset
-  artifactKey: Guid(75da2a6c939256844b941e9ab88093fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_51.asset using Guid(75da2a6c939256844b941e9ab88093fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780bf2115b3aefeea9bc36bd84357dae') in 0.007129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_33.asset
-  artifactKey: Guid(ff1537691a1005d47b716e16e4c0b3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_33.asset using Guid(ff1537691a1005d47b716e16e4c0b3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e894b4c618bca07b4664daa292175b') in 0.006193 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_18.asset
-  artifactKey: Guid(2bf36eca35e38e7448dc69a25c705be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_18.asset using Guid(2bf36eca35e38e7448dc69a25c705be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3068a8a82fc0cadab2eab9dd905b28e2') in 0.006721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_53.asset
-  artifactKey: Guid(9244cbe6bfa88a741bc9a8b248564e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_53.asset using Guid(9244cbe6bfa88a741bc9a8b248564e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180c7950c57e7c76d0b2bf3450f6444a') in 0.006740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_19.asset
-  artifactKey: Guid(9e8b83fb21c754b49adc455486fc6085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_19.asset using Guid(9e8b83fb21c754b49adc455486fc6085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44de69d98add72131e47a099f43809c9') in 0.008339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_8.asset
-  artifactKey: Guid(b68b1b4ba9bba4d448c72e0e86aeadeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_8.asset using Guid(b68b1b4ba9bba4d448c72e0e86aeadeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db77a91532ef758c1d6c121a61fd6a9') in 0.024321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_9.asset
-  artifactKey: Guid(0c047ef7b886f9f44b3dce0c174a683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_9.asset using Guid(0c047ef7b886f9f44b3dce0c174a683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acb4ee75f74ffe6c158e9b0379b0a4c') in 0.006968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_42.asset
-  artifactKey: Guid(7bdb31dea7901014e8f25201f5b1b1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_42.asset using Guid(7bdb31dea7901014e8f25201f5b1b1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdff8c591ec82d99479ee8e2dfa5ce5a') in 0.020363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 18.004226 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_0.asset
-  artifactKey: Guid(5957231a343929044a471589e798e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_0.asset using Guid(5957231a343929044a471589e798e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde5dc9dc7b7373b7ea5526ad4bb6950') in 0.008274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_35.asset
-  artifactKey: Guid(96b1f2243c2fbae48857f54252a25d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_35.asset using Guid(96b1f2243c2fbae48857f54252a25d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12936c0a131067168ef097ed80297f57') in 0.007656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_38.asset
-  artifactKey: Guid(844572e768451b7468e0640e010e2579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_38.asset using Guid(844572e768451b7468e0640e010e2579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ae9ac87f30a6b51dccb2679f04b003') in 0.007318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_31.asset
-  artifactKey: Guid(7a4e9f62cc420564ab86096c9d02c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_31.asset using Guid(7a4e9f62cc420564ab86096c9d02c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcf1c0555d5c8301671e2fa4feda132') in 0.019113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_40.asset
-  artifactKey: Guid(0e11a7710cf92a1489680ebd10550963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_40.asset using Guid(0e11a7710cf92a1489680ebd10550963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccbad7678814f319157940d36f00b78') in 0.007756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_17.asset
-  artifactKey: Guid(22e39a24fee761b4a89bbe7c3f61521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_17.asset using Guid(22e39a24fee761b4a89bbe7c3f61521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af3091ba327e12c94150c97a0f3f77f') in 0.005843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_25.asset
-  artifactKey: Guid(3ba917c13fc1a434aa2f2a7bf011ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_25.asset using Guid(3ba917c13fc1a434aa2f2a7bf011ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37833583c299304dd681894ef0aab322') in 0.006402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_44.asset
-  artifactKey: Guid(7f1fdac5cf7e45e489c590f4348b0be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_44.asset using Guid(7f1fdac5cf7e45e489c590f4348b0be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9beb84efd0b164bed454aaa424ec45da') in 0.006981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_4.asset
-  artifactKey: Guid(c9a59d2a9ac7d164e83f0a551a1d518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_4.asset using Guid(c9a59d2a9ac7d164e83f0a551a1d518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e65e7e2896149463e9120a59b6e8f9e') in 0.007109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_45.asset
-  artifactKey: Guid(009eb6050f9770b4c949c60bd6f38606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_45.asset using Guid(009eb6050f9770b4c949c60bd6f38606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5192e8fbb30ba3cc999f80bc76ada61e') in 0.006047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_55.asset
-  artifactKey: Guid(365117b4171c0a54c85c8b6a5e394d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_55.asset using Guid(365117b4171c0a54c85c8b6a5e394d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756d2818d2f89e095ab81eff6455f510') in 0.006744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_12.asset
-  artifactKey: Guid(c973d0fd8f03e43419df4bd9bf3210a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_12.asset using Guid(c973d0fd8f03e43419df4bd9bf3210a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37c28ac3e0fcee3cc97c55779f42863') in 0.006234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_10.asset
-  artifactKey: Guid(ce96a6c0172e1b24b95625a5f3c54500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_10.asset using Guid(ce96a6c0172e1b24b95625a5f3c54500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db88a324d8182561526fc26de0eff4e4') in 0.011418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_32.asset
-  artifactKey: Guid(4d933c29974120c4a9f66e7c1e614dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_32.asset using Guid(4d933c29974120c4a9f66e7c1e614dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47002f8bee041333028fbb9f1952ac5d') in 0.006117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_27.asset
-  artifactKey: Guid(f579a9ca4be36cc4b9716586ccc0eccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_27.asset using Guid(f579a9ca4be36cc4b9716586ccc0eccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b2702df3ea04ba14e5a1e660e33946') in 0.005947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_3.asset
-  artifactKey: Guid(e2e19b54182e72645acae6de1359a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_3.asset using Guid(e2e19b54182e72645acae6de1359a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e32beea7b4d3cbf43359290e4e8e7c') in 0.006297 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_2.asset
-  artifactKey: Guid(5009060df3bfe5c42842d56e318ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_2.asset using Guid(5009060df3bfe5c42842d56e318ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0caaf69e8264fc69930ebe2e86385b2') in 0.006869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_26.asset
-  artifactKey: Guid(efc32918678da0e418c419c2ec2e7613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_26.asset using Guid(efc32918678da0e418c419c2ec2e7613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25267a38a5605ea1657a4a61bc5557a1') in 0.007973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_43.asset
-  artifactKey: Guid(eb995fc8a04ef904396d023115c0118c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_43.asset using Guid(eb995fc8a04ef904396d023115c0118c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e9c74122adb00d5e15789dc88c62e4') in 0.006311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_41.asset
-  artifactKey: Guid(ad5e2ee80810c084fa34710db0e24565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_41.asset using Guid(ad5e2ee80810c084fa34710db0e24565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b19242222051609f3070d5b8ad0e6d') in 0.006708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_51.asset
-  artifactKey: Guid(75da2a6c939256844b941e9ab88093fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_51.asset using Guid(75da2a6c939256844b941e9ab88093fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad66e8f50876f9ebd5727107efcf3e49') in 0.012183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_6.asset
-  artifactKey: Guid(7e916cfc394766b4cb0c09a6e61cec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_6.asset using Guid(7e916cfc394766b4cb0c09a6e61cec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4cf95d2238c23dc24ec05272a082f0') in 0.006911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_5.asset
-  artifactKey: Guid(6df77d48997f1364b9454c56ccf5c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_5.asset using Guid(6df77d48997f1364b9454c56ccf5c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6068434933994fd118f25ac3384a48d4') in 0.014639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_34.asset
-  artifactKey: Guid(a184d70c6d6946847a55ce737708ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_34.asset using Guid(a184d70c6d6946847a55ce737708ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5d0dd97de41fd0ca6fb53489868e55') in 0.006659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_54.asset
-  artifactKey: Guid(fa13ed181e4f75e40b518444f6550508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_54.asset using Guid(fa13ed181e4f75e40b518444f6550508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7dd00e8f72792eb0d28f80079f99a9') in 0.015210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_22.asset
-  artifactKey: Guid(9c0e4b27f95d1ff4082feefb27beff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_22.asset using Guid(9c0e4b27f95d1ff4082feefb27beff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4d03773bf7d08a8542f944b5c0951f') in 0.007609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_9.asset
-  artifactKey: Guid(0c047ef7b886f9f44b3dce0c174a683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_9.asset using Guid(0c047ef7b886f9f44b3dce0c174a683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1270fd2ecc7f3d061de7056c60a236ea') in 0.014490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_42.asset
-  artifactKey: Guid(7bdb31dea7901014e8f25201f5b1b1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_42.asset using Guid(7bdb31dea7901014e8f25201f5b1b1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f938aebd898f169bffd78382a4e3c97b') in 0.006888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.610723 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_0.asset
-  artifactKey: Guid(5957231a343929044a471589e798e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_0.asset using Guid(5957231a343929044a471589e798e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d0970de82ec1df758332b2fb25cbb0') in 0.010540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_35.asset
-  artifactKey: Guid(96b1f2243c2fbae48857f54252a25d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_35.asset using Guid(96b1f2243c2fbae48857f54252a25d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b7e67b61491393aa385062aa88197a') in 0.007254 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_47.asset
-  artifactKey: Guid(be564655a6c63c5488b2fd50da1a82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_47.asset using Guid(be564655a6c63c5488b2fd50da1a82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6947433be8dba486727e9a71412639c') in 0.007068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_37.asset
-  artifactKey: Guid(ac8cca51bc03b6840a0210dc2a94defc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_37.asset using Guid(ac8cca51bc03b6840a0210dc2a94defc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a54c05912968c4efa4c49f39807ec8') in 0.010802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_40.asset
-  artifactKey: Guid(0e11a7710cf92a1489680ebd10550963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_40.asset using Guid(0e11a7710cf92a1489680ebd10550963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5601a490009449fbb89a3195c70e2912') in 0.020983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_36.asset
-  artifactKey: Guid(cd3a2dd98a1ea24489d9545e28f9a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_36.asset using Guid(cd3a2dd98a1ea24489d9545e28f9a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24a8e3f70e28d6924315466b855db8a') in 0.014003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_28.asset
-  artifactKey: Guid(908f913129af2b94a8bb7df3e7cf5de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_28.asset using Guid(908f913129af2b94a8bb7df3e7cf5de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74dd17124b9095dfff7c7df8f2eb017') in 0.007616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_13.asset
-  artifactKey: Guid(d829960bc6749e143a9aa692b196612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_13.asset using Guid(d829960bc6749e143a9aa692b196612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8eddeac182152b0e0b18fa61f0ca53') in 0.010274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_50.asset
-  artifactKey: Guid(f79deab401fb45749a8dc7ac09d34712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_50.asset using Guid(f79deab401fb45749a8dc7ac09d34712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2492f8537a67aba5784ff616478dfc') in 0.006582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_11.asset
-  artifactKey: Guid(d01586b06ba2caf4fabce9d9af2827f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_11.asset using Guid(d01586b06ba2caf4fabce9d9af2827f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7975dc39dee109927fedf06a1c286ae') in 0.022069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_30.asset
-  artifactKey: Guid(f9011f557bcecd5418da79abf198bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_30.asset using Guid(f9011f557bcecd5418da79abf198bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c89cf03629d86aa18b8c83286d7c8f') in 0.005654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_20.asset
-  artifactKey: Guid(94653eb0aa8068d46868bbcd68834d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_20.asset using Guid(94653eb0aa8068d46868bbcd68834d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18321c0ad2e9448ff8a14863e36985c2') in 0.016343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_24.asset
-  artifactKey: Guid(73a0a30142a31eb4989134b2d79581f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_24.asset using Guid(73a0a30142a31eb4989134b2d79581f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad6486eec61ed039e27cb5384e5f143') in 0.016313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_10.asset
-  artifactKey: Guid(ce96a6c0172e1b24b95625a5f3c54500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_10.asset using Guid(ce96a6c0172e1b24b95625a5f3c54500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba310145ded1de8f124cb21b6c11ce') in 0.007472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_32.asset
-  artifactKey: Guid(4d933c29974120c4a9f66e7c1e614dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_32.asset using Guid(4d933c29974120c4a9f66e7c1e614dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c433fb95f586f29b5568351d2bbc01bd') in 0.006253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_27.asset
-  artifactKey: Guid(f579a9ca4be36cc4b9716586ccc0eccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_27.asset using Guid(f579a9ca4be36cc4b9716586ccc0eccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73ddc9869adde9db4ece69709dea40b') in 0.005803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_3.asset
-  artifactKey: Guid(e2e19b54182e72645acae6de1359a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_3.asset using Guid(e2e19b54182e72645acae6de1359a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58f7ed39614bf70f300fe39d0dce0dd') in 0.008174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_2.asset
-  artifactKey: Guid(5009060df3bfe5c42842d56e318ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_2.asset using Guid(5009060df3bfe5c42842d56e318ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2da8072f7d55f09ceb5000f1fe13746') in 0.023957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_26.asset
-  artifactKey: Guid(efc32918678da0e418c419c2ec2e7613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_26.asset using Guid(efc32918678da0e418c419c2ec2e7613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7530938382e07cbfba24a4527adf977') in 0.006038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_7.asset
-  artifactKey: Guid(7057c103045b8a341803a1a158cad4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_7.asset using Guid(7057c103045b8a341803a1a158cad4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b1d0f5e5cf98ed0ec1db9de160a1b2') in 0.006836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_41.asset
-  artifactKey: Guid(ad5e2ee80810c084fa34710db0e24565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_41.asset using Guid(ad5e2ee80810c084fa34710db0e24565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3aabf9813e83e8585cf6cc7f0a4942') in 0.007068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_6.asset
-  artifactKey: Guid(7e916cfc394766b4cb0c09a6e61cec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_6.asset using Guid(7e916cfc394766b4cb0c09a6e61cec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae26664dc98b7e641c302360e66b9ad6') in 0.006779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_5.asset
-  artifactKey: Guid(6df77d48997f1364b9454c56ccf5c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_5.asset using Guid(6df77d48997f1364b9454c56ccf5c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd57966cdb4f2463f9a33afd6c378f4') in 0.017932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_34.asset
-  artifactKey: Guid(a184d70c6d6946847a55ce737708ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_34.asset using Guid(a184d70c6d6946847a55ce737708ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d1c937cc1973fe8d10da00113b7693') in 0.005826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_54.asset
-  artifactKey: Guid(fa13ed181e4f75e40b518444f6550508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_54.asset using Guid(fa13ed181e4f75e40b518444f6550508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db13710636224a04e9ce41b8c5e191ec') in 0.015168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_22.asset
-  artifactKey: Guid(9c0e4b27f95d1ff4082feefb27beff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_22.asset using Guid(9c0e4b27f95d1ff4082feefb27beff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97999a205d97a21db7fc445c23c180f') in 0.008664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_9.asset
-  artifactKey: Guid(0c047ef7b886f9f44b3dce0c174a683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_9.asset using Guid(0c047ef7b886f9f44b3dce0c174a683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e2e4dc2e054adbf792f8c01d3e3325') in 0.008380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_42.asset
-  artifactKey: Guid(7bdb31dea7901014e8f25201f5b1b1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_42.asset using Guid(7bdb31dea7901014e8f25201f5b1b1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d92bc158e28e6ecbb6e4a0a7293a1f') in 0.018609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.038822 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_0.asset
-  artifactKey: Guid(5957231a343929044a471589e798e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_0.asset using Guid(5957231a343929044a471589e798e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d1b7643cc3a9c96e84fca1fce34510') in 0.007311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_28.asset
-  artifactKey: Guid(908f913129af2b94a8bb7df3e7cf5de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_28.asset using Guid(908f913129af2b94a8bb7df3e7cf5de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a943c7eafd2fdaa72347cbe3ebc84d8d') in 0.006960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_47.asset
-  artifactKey: Guid(be564655a6c63c5488b2fd50da1a82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_47.asset using Guid(be564655a6c63c5488b2fd50da1a82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32531b5dcc69c47d7f950eaf44dd682d') in 0.007618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_46.asset
-  artifactKey: Guid(6f5ae9dcc5127d5418cfb0416bb390f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_46.asset using Guid(6f5ae9dcc5127d5418cfb0416bb390f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf39623d6f045d35e9136cb5de917f2') in 0.006230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_37.asset
-  artifactKey: Guid(ac8cca51bc03b6840a0210dc2a94defc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_37.asset using Guid(ac8cca51bc03b6840a0210dc2a94defc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3d5629abb8595546a2bfe151dec9d8') in 0.019818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_39.asset
-  artifactKey: Guid(e9d21d9695deea34cb59db2174c78c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_39.asset using Guid(e9d21d9695deea34cb59db2174c78c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec338cbf66369d87e293b5ae0651b67') in 0.006497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_36.asset
-  artifactKey: Guid(cd3a2dd98a1ea24489d9545e28f9a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_36.asset using Guid(cd3a2dd98a1ea24489d9545e28f9a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e388d79b58acb772f824023eafc1bfe') in 0.049751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_44.asset
-  artifactKey: Guid(7f1fdac5cf7e45e489c590f4348b0be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_44.asset using Guid(7f1fdac5cf7e45e489c590f4348b0be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b96c012ebbcb6a339039c19e454c39c') in 0.007477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_4.asset
-  artifactKey: Guid(c9a59d2a9ac7d164e83f0a551a1d518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_4.asset using Guid(c9a59d2a9ac7d164e83f0a551a1d518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62496281f5937228352eb7768c8531ef') in 0.006622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_45.asset
-  artifactKey: Guid(009eb6050f9770b4c949c60bd6f38606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_45.asset using Guid(009eb6050f9770b4c949c60bd6f38606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf41f2d09df51573a03d0a9402491d8') in 0.007041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_55.asset
-  artifactKey: Guid(365117b4171c0a54c85c8b6a5e394d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_55.asset using Guid(365117b4171c0a54c85c8b6a5e394d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eb0d04ba1b94e01b085539bf0b71cd') in 0.005857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_24.asset
-  artifactKey: Guid(73a0a30142a31eb4989134b2d79581f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_24.asset using Guid(73a0a30142a31eb4989134b2d79581f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d207815b4bfeb5921988319f4c98b6') in 0.024694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_10.asset
-  artifactKey: Guid(ce96a6c0172e1b24b95625a5f3c54500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_10.asset using Guid(ce96a6c0172e1b24b95625a5f3c54500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bde9fa946476a2cc39f62e8623a2149') in 0.026732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_14.asset
-  artifactKey: Guid(1c99f12964e4d6a4cb6629fcfbc2c55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_14.asset using Guid(1c99f12964e4d6a4cb6629fcfbc2c55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad957f89e484198f707591a8c65a1f9b') in 0.011105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_21.asset
-  artifactKey: Guid(8f4d39be57907c44d98095dba4d370a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_21.asset using Guid(8f4d39be57907c44d98095dba4d370a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf8d8bb3c0fdb3b7392f9b95fb3286a') in 0.006752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_48.asset
-  artifactKey: Guid(08ee8c93bd4e9c742ada880e71c90010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_48.asset using Guid(08ee8c93bd4e9c742ada880e71c90010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1135034695d337d6042b0675c5d6a41') in 0.010887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_52.asset
-  artifactKey: Guid(c49b5dc6d9906864192850b73e457144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_52.asset using Guid(c49b5dc6d9906864192850b73e457144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161482f0bb846cc0d1bac9bc72a9cb96') in 0.008381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_49.asset
-  artifactKey: Guid(02d40430bb4652246b7c2f0afd36c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_49.asset using Guid(02d40430bb4652246b7c2f0afd36c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bd94d90acc26fbf4be051a75355f08') in 0.038171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_16.asset
-  artifactKey: Guid(40bfc64bf9614c24a9781b137dd19a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_16.asset using Guid(40bfc64bf9614c24a9781b137dd19a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5876928612f982a9231ad9468063139') in 0.006999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_7.asset
-  artifactKey: Guid(7057c103045b8a341803a1a158cad4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_7.asset using Guid(7057c103045b8a341803a1a158cad4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a9c95769e2ef08ffb818cc7f8c52de') in 0.020162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_15.asset
-  artifactKey: Guid(65efcd39dea46db41999382939d024bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_15.asset using Guid(65efcd39dea46db41999382939d024bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a5c594ae21f2fa7b21278eaacced15') in 0.014913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_6.asset
-  artifactKey: Guid(7e916cfc394766b4cb0c09a6e61cec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_6.asset using Guid(7e916cfc394766b4cb0c09a6e61cec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c74ca0b37aa5fdc514b40596634aad') in 0.020560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_5.asset
-  artifactKey: Guid(6df77d48997f1364b9454c56ccf5c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_5.asset using Guid(6df77d48997f1364b9454c56ccf5c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017ffe52dddbb1d7ae2552cf2385654b') in 0.007226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_34.asset
-  artifactKey: Guid(a184d70c6d6946847a55ce737708ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_34.asset using Guid(a184d70c6d6946847a55ce737708ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b927f30f0d1752b08e6895cdb19934b2') in 0.017172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_54.asset
-  artifactKey: Guid(fa13ed181e4f75e40b518444f6550508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_54.asset using Guid(fa13ed181e4f75e40b518444f6550508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1893789ada48efa1db3e81ac76d18bc5') in 0.007871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_22.asset
-  artifactKey: Guid(9c0e4b27f95d1ff4082feefb27beff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_22.asset using Guid(9c0e4b27f95d1ff4082feefb27beff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb229746e64a3f3f608b9544b0fd0cec') in 0.010067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_23.asset
-  artifactKey: Guid(53c88509c852c5a4e9cc61629f37b210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_23.asset using Guid(53c88509c852c5a4e9cc61629f37b210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7012105b4eb9ddd90783a0fc4cfc77a') in 0.008550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TileSet/Tiles/1_bit_dungeon_tilest_29.asset
-  artifactKey: Guid(cd1f35aa460843f4b943e97d04a8a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileSet/Tiles/1_bit_dungeon_tilest_29.asset using Guid(cd1f35aa460843f4b943e97d04a8a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17683adbd727ad11b1a4ef838e7b0fbf') in 0.011430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 10.510694 seconds.
+  path: Assets/UI/TheAbyssLogo.png
+  artifactKey: Guid(ba9f17ee7b0f74a409cc587b77126b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/TheAbyssLogo.png using Guid(ba9f17ee7b0f74a409cc587b77126b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ab268c7fe7d86b6e2d0ae1c670f248') in 0.105640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 246.570659 seconds.
+  path: Assets/UI/af39462d79d89756a2126f99f18c9517d83a66b1_hq.gif
+  artifactKey: Guid(22be887c69e5c0d4bb0dcddae80ef0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/af39462d79d89756a2126f99f18c9517d83a66b1_hq.gif using Guid(22be887c69e5c0d4bb0dcddae80ef0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb46e9c22514c0cdb82d3541228d57ce') in 0.041336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.553 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.138 seconds
+Domain Reload Profiling: 1691ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 4.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.4 KB). Loaded Objects now: 4525.
+Memory consumption went from 141.3 MB to 141.0 MB.
+Total: 4.074200 ms (FindLiveObjects: 0.475900 ms CreateObjectMapping: 0.122600 ms MarkObjects: 3.234400 ms  DeleteObjects: 0.239300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.469 seconds
+Refreshing native plugins compatible for Editor in 4.58 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.995 seconds
+Domain Reload Profiling: 1463ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (995ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 4.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.4 KB). Loaded Objects now: 4529.
+Memory consumption went from 141.5 MB to 141.3 MB.
+Total: 4.696300 ms (FindLiveObjects: 0.640600 ms CreateObjectMapping: 0.292200 ms MarkObjects: 3.296400 ms  DeleteObjects: 0.465200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 206.714021 seconds.
+  path: Assets/UI/563004.jpg
+  artifactKey: Guid(43d961f2158fbe04daefff1ecf58e0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/563004.jpg using Guid(43d961f2158fbe04daefff1ecf58e0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed8eaa9206021d0c9b1587fca1ad212') in 0.078038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 223.818443 seconds.
+  path: Assets/UI/Blank_Unpressed.png
+  artifactKey: Guid(9011162598d65b242b8cf24ef3b589f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Blank_Unpressed.png using Guid(9011162598d65b242b8cf24ef3b589f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c620717218849c422e919e573e372b') in 0.035652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.553 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 1636ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1084ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.6 KB). Loaded Objects now: 4536.
+Memory consumption went from 141.3 MB to 141.1 MB.
+Total: 3.639100 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.892600 ms  DeleteObjects: 0.218500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.455 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.984 seconds
+Domain Reload Profiling: 1439ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (985ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.4 KB). Loaded Objects now: 4540.
+Memory consumption went from 141.5 MB to 141.3 MB.
+Total: 4.927300 ms (FindLiveObjects: 0.712700 ms CreateObjectMapping: 0.234900 ms MarkObjects: 3.740200 ms  DeleteObjects: 0.237500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149.533767 seconds.
+  path: Assets/Scripts/UIScript.cs
+  artifactKey: Guid(99502ac09aa1fc343a8fad5f12a7afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIScript.cs using Guid(99502ac09aa1fc343a8fad5f12a7afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbaa08ad62ae0b475c7a34fb590a769') in 0.002846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 4.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.966 seconds
+Domain Reload Profiling: 1418ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (966ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.6 KB). Loaded Objects now: 4544.
+Memory consumption went from 141.3 MB to 141.1 MB.
+Total: 3.813600 ms (FindLiveObjects: 0.494800 ms CreateObjectMapping: 0.114900 ms MarkObjects: 2.984500 ms  DeleteObjects: 0.217500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.461 seconds
+Refreshing native plugins compatible for Editor in 4.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.999 seconds
+Domain Reload Profiling: 1460ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (999ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.3 KB). Loaded Objects now: 4548.
+Memory consumption went from 141.5 MB to 141.3 MB.
+Total: 3.863800 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.219600 ms MarkObjects: 2.886000 ms  DeleteObjects: 0.308300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.956 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (957ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.4 KB). Loaded Objects now: 4552.
+Memory consumption went from 141.6 MB to 141.3 MB.
+Total: 4.065400 ms (FindLiveObjects: 0.484900 ms CreateObjectMapping: 0.234000 ms MarkObjects: 3.123000 ms  DeleteObjects: 0.221700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.681 seconds
+Refreshing native plugins compatible for Editor in 4.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.110 seconds
+Domain Reload Profiling: 1791ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (421ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1111ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.5 KB). Loaded Objects now: 4556.
+Memory consumption went from 141.6 MB to 141.3 MB.
+Total: 4.164200 ms (FindLiveObjects: 0.486600 ms CreateObjectMapping: 0.199000 ms MarkObjects: 3.093400 ms  DeleteObjects: 0.383200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.477 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.6 KB). Loaded Objects now: 4560.
+Memory consumption went from 141.6 MB to 141.4 MB.
+Total: 3.703100 ms (FindLiveObjects: 0.406900 ms CreateObjectMapping: 0.121900 ms MarkObjects: 2.954900 ms  DeleteObjects: 0.217800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.000 seconds
+Domain Reload Profiling: 1474ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.5 KB). Loaded Objects now: 4564.
+Memory consumption went from 141.6 MB to 141.4 MB.
+Total: 4.663400 ms (FindLiveObjects: 0.504600 ms CreateObjectMapping: 0.126600 ms MarkObjects: 3.747500 ms  DeleteObjects: 0.282600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.464 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.974 seconds
+Domain Reload Profiling: 1438ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (975ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (218.7 KB). Loaded Objects now: 4568.
+Memory consumption went from 141.6 MB to 141.4 MB.
+Total: 3.852400 ms (FindLiveObjects: 0.465300 ms CreateObjectMapping: 0.133600 ms MarkObjects: 3.014300 ms  DeleteObjects: 0.238100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.456 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.975 seconds
+Domain Reload Profiling: 1431ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (976ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 4.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.6 KB). Loaded Objects now: 4572.
+Memory consumption went from 141.6 MB to 141.4 MB.
+Total: 4.412800 ms (FindLiveObjects: 0.369600 ms CreateObjectMapping: 0.125900 ms MarkObjects: 3.665000 ms  DeleteObjects: 0.250700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.508 seconds
+Refreshing native plugins compatible for Editor in 3.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.966 seconds
+Domain Reload Profiling: 1474ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (967ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (428ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.9 KB). Loaded Objects now: 4576.
+Memory consumption went from 141.6 MB to 141.4 MB.
+Total: 5.463400 ms (FindLiveObjects: 0.843700 ms CreateObjectMapping: 0.487000 ms MarkObjects: 3.837600 ms  DeleteObjects: 0.293400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
