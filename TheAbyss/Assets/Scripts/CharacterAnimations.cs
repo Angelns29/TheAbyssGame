@@ -1,19 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterAnimations : MonoBehaviour
 {
     private Animator _animator;
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
+    private AudioSource _as;
 
     // Start is called before the first frame update
     void Awake()
     {
-        _animator= gameObject.GetComponent<Animator>();
+
+        _animator = gameObject.GetComponent<Animator>();
         _rb= GetComponent<Rigidbody2D>();
         _sr= GetComponent<SpriteRenderer>();
+        _as= GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,6 +27,7 @@ public class CharacterAnimations : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             _animator.SetBool("isAttacking", true);
+            _as.Play();
         }
         if (Input.GetKeyUp(KeyCode.Z))
         {
@@ -31,7 +36,7 @@ public class CharacterAnimations : MonoBehaviour
         //Personaje se mueve a la derecha
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
-            _rb.velocity = new Vector2(1, 0);
+            _rb.velocity = new Vector2(2, 0);
             _animator.SetBool("isRunning", true);
             _sr.flipX = false;
 
@@ -88,3 +93,7 @@ public class CharacterAnimations : MonoBehaviour
         }
     }
 }
+/* if (DoNotDestroyObjects.instance != null)
+ {
+     transform.position = DoNotDestroyObjects.instance.SpawnLocation;
+ }*/
