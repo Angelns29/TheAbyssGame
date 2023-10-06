@@ -92,6 +92,13 @@ public class CharacterAnimations : MonoBehaviour
             _rb.gravityScale = 1;
         }
     }
+    private void OnColisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Trap")
+        {
+            _animator.SetBool("isDeath", true);
+        }
+    
+    } 
 }
 /* if (DoNotDestroyObjects.instance != null)
  {
