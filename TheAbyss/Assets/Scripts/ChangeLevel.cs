@@ -19,18 +19,41 @@ public class ChangeLevel : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "NextLevel")
+        switch (collision.gameObject.name)
         {
-            sceneNum++;
-            SceneManager.LoadScene(sceneNum);
-            player.position = new Vector3(-10,-15,0);
-            DontDestroyOnLoad(gameObject);  
-        }
-        else if (collision.gameObject.name == "ReturnLevel")
-        {
-            sceneNum--;
-            SceneManager.LoadScene(sceneNum);
-            player.position = new Vector3(10, -15, 0);
+            case "NextLevel":
+                sceneNum++;
+                SceneManager.LoadScene(sceneNum);
+                player.position = new Vector3(-10, -15, 0);
+                DontDestroyOnLoad(gameObject);
+                break;
+            case "Return Level":
+                sceneNum--;
+                SceneManager.LoadScene(sceneNum);
+                player.position = new Vector3(10, -15, 0);
+                break;
+            case "NextLevelUp":
+                sceneNum++;
+                SceneManager.LoadScene(sceneNum);
+                player.position = new Vector3(8, -15, 0);
+                DontDestroyOnLoad(gameObject);
+                break;
+            case "ReturnLevelDown":
+                sceneNum--;
+                SceneManager.LoadScene(sceneNum);
+                player.position = new Vector3(8, -10, 0);
+                break;
+            case "NextLevelL":
+                sceneNum++;
+                SceneManager.LoadScene(sceneNum);
+                player.position = new Vector3(10, -15, 0);
+                DontDestroyOnLoad(gameObject);
+                break;
+            case "ReturnLevelR":
+                sceneNum--;
+                SceneManager.LoadScene(sceneNum);
+                player.position = new Vector3(-10, -15, 0);
+                break;
         }
     }
 }

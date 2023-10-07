@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TheAbyssL3.unity
     guid: 8b16964a7326da043aa0355c0e78ce64
   - enabled: 1
+    path: Assets/Scenes/TheAbyssL3S2.unity
+    guid: 57e644d6cf21b4345924f6a88a59061d
+  - enabled: 1
     path: Assets/Scenes/TheAbyssL4.unity
     guid: 67f94e3a7f4672c47af1f9f18ecbc519
   - enabled: 1
