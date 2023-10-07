@@ -8,7 +8,7 @@ public class CharacterAnimations : MonoBehaviour
     private Animator _animator;
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
-    private AudioSource _as;
+    public SoundManagerScript soundManager;
 
     // Start is called before the first frame update
     void Awake()
@@ -17,7 +17,8 @@ public class CharacterAnimations : MonoBehaviour
         _animator = gameObject.GetComponent<Animator>();
         _rb= GetComponent<Rigidbody2D>();
         _sr= GetComponent<SpriteRenderer>();
-        _as= GetComponent<AudioSource>();
+        soundManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<SoundManagerScript>();
+
     }
 
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class CharacterAnimations : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             _animator.SetBool("isAttacking", true);
-            _as.Play();
+            soundManager.PlaySFX(soundManager.attack);
         }
         if (Input.GetKeyUp(KeyCode.Z))
         {
@@ -92,13 +93,7 @@ public class CharacterAnimations : MonoBehaviour
             _rb.gravityScale = 1;
         }
     }
-    private void OnColisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.tag == "Trap")
-        {
-            _animator.SetBool("isDeath", true);
-        }
-    
-    } 
+
 }
 /* if (DoNotDestroyObjects.instance != null)
  {

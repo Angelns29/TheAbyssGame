@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 130
+  controlID: 44
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 82
+  controlID: 45
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -315,9 +315,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 5a630000
       m_LastClickedID: 0
-      m_ExpandedIDs: 18fbffff
+      m_ExpandedIDs: 98edfeff441fffff1624ffff4227ffff922fffff6c34ffff063dffff3a3fffff0a42ffff9244fffffe63fffff66affff3e6bffff1c6cffff846cffff6c6fffff6290ffff1c91ffffac91ffff2692ffff9094ffff4097ffff8caaffff16afffff86b7ffff50f2ffff5ef9ffff16fbfffff4ffffff4e650000a0660000b0660000ca660000e8660000f8660000fc7c0000287d0000567d00003c8a0000928a000014940000e69800001299000018990000509e0000d8a20000c4a30000caa40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -169.35852, y: -26}
+      snapOffset: {x: -171, y: -26}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -710,9 +710,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.2409465, y: -14.673729, z: -0.09021402}
+    m_Target: {x: 2.3999717, y: -14.820756, z: -0.05120052}
     speed: 2
-    m_Value: {x: 1.9780185, y: -14.628311, z: -0.0866005}
+    m_Value: {x: 2.3999717, y: -14.820756, z: -0.05120052}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -762,9 +762,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.391454
+    m_Target: 7.3397226
     speed: 2
-    m_Value: 8.030099
+    m_Value: 7.3397226
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -827,14 +827,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 1443746925944628938, guid: 7e70e9feb224c554bb44e7952f73d30a, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.7225
+    - e00: 0.67482036
       e01: 0
       e02: 0
-      e03: 2.9966736
+      e03: 18.361954
       e10: 0
-      e11: 0.7225
+      e11: 0.67482036
       e12: 0
-      e13: 255.92688
+      e13: 251.25623
       e20: 0
       e21: 0
       e22: 1
@@ -904,7 +904,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Resources/Audio
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -912,16 +912,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Resources/Audio
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\angel\Documents\GitHub\NavarreteSanchezAngel_M17UF1R1\TheAbyss
+  m_LastProjectPath: F:\DAM\2\M17\TheAbyss
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e0640000
-    m_LastClickedID: 25824
-    m_ExpandedIDs: 0000000034640000366400003864000000ca9a3bffffff7f
+    m_SelectedIDs: dc640000
+    m_LastClickedID: 25820
+    m_ExpandedIDs: 000000002e640000306400003264000040b3000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -949,7 +949,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000346400003664000038640000
+    m_ExpandedIDs: 000000002e6400003064000032640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -977,7 +977,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000e26a00004c610000c6610000ce610000ca610000d26100001e660000d87500002a67000006680000de620000
+    m_ExpandedInstanceIDs: c6230000e26a00004c610000c6610000ce610000ca610000d26100001e660000d87500002a67000006680000de620000c88f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
