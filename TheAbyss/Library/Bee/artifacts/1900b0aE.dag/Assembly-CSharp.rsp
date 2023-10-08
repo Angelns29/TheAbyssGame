@@ -380,6 +380,7 @@
 "Assets/Scripts/CharacterAnimations.cs"
 "Assets/Scripts/DoNotDestroyObjects.cs"
 "Assets/Scripts/Parallax.cs"
+"Assets/Scripts/Parallax2.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/SoundManagerScript.cs"
