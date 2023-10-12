@@ -9,6 +9,9 @@ public class CharacterAnimations : MonoBehaviour
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
     public SoundManagerScript soundManager;
+    [SerializeField] private Transform _groundCheck;
+    [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private SpriteRenderer _srGround;
 
     // Start is called before the first frame update
     void Awake()
@@ -82,18 +85,24 @@ public class CharacterAnimations : MonoBehaviour
             _animator.SetBool("isRolling", false);
         }
         //Mecanica cambio gravedad
-        if (Input.GetKeyUp(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow) && IsGrounded())
         {
-            _sr.flipY = true;
+            //_sr.flipY = true;
+            transform.Rotate(0, 180, 180);
             _rb.gravityScale = -4;
+
         }
-        if (Input.GetKeyUp(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow) && IsGrounded())
         {
-            _sr.flipY = false;
+            //_sr.flipY = false;
+            transform.Rotate(0, 180, 180);
             _rb.gravityScale = 4;
         }
     }
-
+    private bool IsGrounded()
+    {
+        return Physics2D.OverlapCircle(_groundCheck.position, 0.2f, _groundLayer);
+    }
 }
 /* if (DoNotDestroyObjects.instance != null)
  {
