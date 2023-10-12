@@ -37,7 +37,7 @@ public class CharacterAnimations : MonoBehaviour
         //Personaje se mueve a la derecha
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
-            _rb.velocity = new Vector2(2, 0);
+            _rb.velocity = new Vector2(4, 0);
             _animator.SetBool("isRunning", true);
             _sr.flipX = false;
 
@@ -51,7 +51,7 @@ public class CharacterAnimations : MonoBehaviour
         //Personaje se mueve a la izquierda
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
-            _rb.velocity = new Vector2(-1, 0);
+            _rb.velocity = new Vector2(-4, 0);
             _sr.flipX = true;
             _animator.SetBool("isRunning", true);
 
@@ -67,11 +67,11 @@ public class CharacterAnimations : MonoBehaviour
         {
             if (_sr.flipX == true)
             {
-                _rb.velocity = new Vector2(-2, 0);
+                _rb.velocity = new Vector2(-4, 0);
             }
             else if (_sr.flipX == false)
             {
-                _rb.velocity = new Vector2(2, 0);
+                _rb.velocity = new Vector2(4, 0);
             }
             _animator.SetBool("isRolling", true);
 
@@ -85,12 +85,12 @@ public class CharacterAnimations : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.UpArrow))
         {
             _sr.flipY = true;
-            _rb.gravityScale = -1;
+            _rb.gravityScale = -4;
         }
         if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             _sr.flipY = false;
-            _rb.gravityScale = 1;
+            _rb.gravityScale = 4;
         }
     }
 
