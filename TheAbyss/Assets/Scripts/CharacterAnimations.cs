@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,10 +9,10 @@ public class CharacterAnimations : MonoBehaviour
     private Animator _animator;
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
+    private Transform _tr;
     public SoundManagerScript soundManager;
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private LayerMask _groundLayer;
-    [SerializeField] private SpriteRenderer _srGround;
 
     // Start is called before the first frame update
     void Awake()
@@ -20,6 +21,7 @@ public class CharacterAnimations : MonoBehaviour
         _animator = gameObject.GetComponent<Animator>();
         _rb= GetComponent<Rigidbody2D>();
         _sr= GetComponent<SpriteRenderer>();
+        _tr = GetComponent<Transform>();
         soundManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<SoundManagerScript>();
 
     }
@@ -88,15 +90,27 @@ public class CharacterAnimations : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) && IsGrounded())
         {
             //_sr.flipY = true;
-            transform.Rotate(0, 180, 180);
-            _rb.gravityScale = -4;
+            if (_tr.rotation.x == 0 || _tr.rotation.x !=1)
+            {
+                _tr.Rotate(0, 180, 180);
+                _rb.gravityScale = -4; 
+                //Debug.Log(_tr.rotation.x);
+
+            }
+
 
         }
         if (Input.GetKeyDown(KeyCode.DownArrow) && IsGrounded())
         {
-            //_sr.flipY = false;
-            transform.Rotate(0, 180, 180);
-            _rb.gravityScale = 4;
+
+            if (_tr.rotation.x == 1)
+           {
+                //_sr.flipY = false;
+                _tr.Rotate(0, 180, 180);
+                _rb.gravityScale = 4;
+                //Debug.Log(_tr.rotation.x);
+            }
+            
         }
     }
     private bool IsGrounded()

@@ -384,7 +384,7 @@
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/SoundManagerScript.cs"
-"Assets/Scripts/UIScript.cs"
+"Assets/Scripts/UIManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
