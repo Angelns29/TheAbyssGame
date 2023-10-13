@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CharacterAnimations : MonoBehaviour
 {
+    public static CharacterAnimations instance;
     private Animator _animator;
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
@@ -17,7 +18,16 @@ public class CharacterAnimations : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
 
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         _animator = gameObject.GetComponent<Animator>();
         _rb= GetComponent<Rigidbody2D>();
         _sr= GetComponent<SpriteRenderer>();

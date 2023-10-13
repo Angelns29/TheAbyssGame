@@ -27,7 +27,7 @@ public class ChangeLevel : MonoBehaviour
                 player.position = new Vector3(-10, -15, 0);
                 DontDestroyOnLoad(gameObject);
                 break;
-            case "Return Level":
+            case "ReturnLevel":
                 sceneNum--;
                 SceneManager.LoadScene(sceneNum);
                 player.position = new Vector3(10, -15, 0);
