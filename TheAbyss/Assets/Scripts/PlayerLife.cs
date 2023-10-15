@@ -31,27 +31,25 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
-            Debug.Log(_player.rotation.x);
+            Debug.Log(CharacterAnimations.gravityActive);
 
-            if (_player.rotation.x.ToString() == "1")
+            if (CharacterAnimations.gravityActive == false)
             {
-                _player.Rotate(0, 180, 180);
+                CharacterAnimations.FlipCharacter(_player);
+                CharacterAnimations.gravityActive = true;
                 _rb.gravityScale = 4;
                 _animator.SetBool("isDeath", true);
                 soundManager.PlaySFX(soundManager.death);
                 _rb.constraints = RigidbodyConstraints2D.FreezePositionX;
                 StartCoroutine(respawnPlayer());
             }
-            else if (_player.rotation.x == 0 || _player.rotation.x != 1)
+            else //if (CharacterAnimations.gravityActive == true)
             {
                 _animator.SetBool("isDeath", true);
                 soundManager.PlaySFX(soundManager.death);
                 _rb.constraints = RigidbodyConstraints2D.FreezePositionX;
                 StartCoroutine(respawnPlayer());
             }
-                
-
-            
         }
     }
     IEnumerator respawnPlayer()
@@ -78,7 +76,6 @@ public class PlayerLife : MonoBehaviour
                 _rb.gravityScale = 4;
                 break;
         }
-        
         _animator.SetBool("isDeath", false);
     }
 

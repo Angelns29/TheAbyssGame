@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class CharacterAnimations : MonoBehaviour
 {
     public static CharacterAnimations instance;
+    public static bool gravityActive = true;
     private Animator _animator;
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
@@ -100,35 +101,33 @@ public class CharacterAnimations : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) && IsGrounded())
         {
             //_sr.flipY = true;
-            if (_tr.rotation.x == 0 || _tr.rotation.x !=1)
+            if (gravityActive == true)
             {
-                _tr.Rotate(0, 180, 180);
+                FlipCharacter(_tr);
                 _rb.gravityScale = -4; 
-                //Debug.Log(_tr.rotation.x);
-
+                gravityActive = false;
             }
-
-
         }
         if (Input.GetKeyDown(KeyCode.DownArrow) && IsGrounded())
         {
 
-            if (_tr.rotation.x == 1)
+            if (gravityActive == false)
            {
+                FlipCharacter(_tr);
                 //_sr.flipY = false;
-                _tr.Rotate(0, 180, 180);
                 _rb.gravityScale = 4;
-                //Debug.Log(_tr.rotation.x);
+                gravityActive=true;
             }
-            
         }
     }
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(_groundCheck.position, 0.2f, _groundLayer);
     }
+    public static  void FlipCharacter(Transform player)
+    {
+        Vector2 scaler = player.localScale;
+        scaler.y *= -1;
+        player.localScale = scaler;
+    }
 }
-/* if (DoNotDestroyObjects.instance != null)
- {
-     transform.position = DoNotDestroyObjects.instance.SpawnLocation;
- }*/
