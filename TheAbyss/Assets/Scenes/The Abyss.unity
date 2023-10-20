@@ -3355,6 +3355,7 @@ MonoBehaviour:
   background: {fileID: 8300000, guid: e81f38b29a6c1e745aaa431bc7a05fa6, type: 3}
   attack: {fileID: 8300000, guid: bfa6ca3486c81d34dafb2092a23d9e73, type: 3}
   death: {fileID: 8300000, guid: 4723ab2c903280e40a6b0d563f105298, type: 3}
+  enemy: {fileID: 8300000, guid: 524837777fef79248ba17f29df4a8cbd, type: 3}
 --- !u!4 &1001971753
 Transform:
   m_ObjectHideFlags: 0

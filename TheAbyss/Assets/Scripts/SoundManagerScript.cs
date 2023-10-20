@@ -12,6 +12,7 @@ public class SoundManagerScript : MonoBehaviour
     public AudioClip background;
     public AudioClip attack;
     public AudioClip death;
+    public AudioClip enemy;
     public void Start()
     {
         musicSource.clip = background;

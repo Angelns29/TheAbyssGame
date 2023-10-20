@@ -382,6 +382,7 @@
 "Assets/Scripts/Checkpoint.cs"
 "Assets/Scripts/CreateProjectil.cs"
 "Assets/Scripts/DoNotDestroyObjects.cs"
+"Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/KeepBackground.cs"
 "Assets/Scripts/KeepUI.cs"
