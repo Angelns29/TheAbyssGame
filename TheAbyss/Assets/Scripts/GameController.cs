@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameObject activeCheckpoint;
-    public static Transform activeCheckpointPosition;
+    public static Vector3 activeCheckpointPosition;
     public static void RespawnPoint(GameObject newCheckpoint)
     {
         if(activeCheckpoint)
@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour
 
         activeCheckpoint = newCheckpoint;
         activeCheckpoint.GetComponent<Checkpoint>().Activate();
-        activeCheckpointPosition = null;
+        activeCheckpointPosition = new Vector3 (0,0,0);
     }
     // Start is called before the first frame update
     void Start()
