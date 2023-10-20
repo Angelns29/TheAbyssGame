@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using TMPro;
+using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,9 +14,11 @@ public class PlayerLife : MonoBehaviour
     private Transform _player;
     private SpriteRenderer _sr;
     public SoundManagerScript soundManager;
+    private Transform respawnPoint;
     private Vector2 respawn = new(-10, -15);
     private Vector2 respawn2 = new(7, -13);
     private Vector2 respawn3 = new(10, -15);
+    private RigidbodyConstraints2D originalRb = RigidbodyConstraints2D.FreezeRotation;
 
     // Start is called before the first frame update
     void Start()
@@ -31,19 +34,21 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
-            Debug.Log(CharacterAnimations.gravityActive);
+            //Debug.Log(CharacterAnimations.gravityActive);
 
             if (CharacterAnimations.gravityActive == false)
             {
-                CharacterAnimations.FlipCharacter(_player);
+
+                //FlipCharacter(_player);
                 CharacterAnimations.gravityActive = true;
-                _rb.gravityScale = 4;
+                //.gravityScale = 4;
+                ChangeGravity();
                 _animator.SetBool("isDeath", true);
                 soundManager.PlaySFX(soundManager.death);
                 _rb.constraints = RigidbodyConstraints2D.FreezePositionX;
                 StartCoroutine(respawnPlayer());
             }
-            else //if (CharacterAnimations.gravityActive == true)
+            else
             {
                 _animator.SetBool("isDeath", true);
                 soundManager.PlaySFX(soundManager.death);
@@ -54,9 +59,9 @@ public class PlayerLife : MonoBehaviour
     }
     IEnumerator respawnPlayer()
     {
-        yield return new WaitForSeconds(3);
-        _rb.constraints = RigidbodyConstraints2D.None;
-        _rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        yield return new WaitForSeconds(2);
+        _rb.constraints = originalRb;
+        //_rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         int sceneActual = SceneManager.GetActiveScene().buildIndex;
         switch (sceneActual)
         {
@@ -79,12 +84,31 @@ public class PlayerLife : MonoBehaviour
         _animator.SetBool("isDeath", false);
     }
 
-    /*private void OnTriggerEnter2D(Collider2D collision)
-{
-   if (collision.GetComponent<spikes>())
-   {
-       Debug.Log("Detecta los pinchos");
-       _animator.SetTrigger("death");
-   }
-}*/
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+       if (collision.gameObject.CompareTag("Checkpoint"))
+       {
+            Checkpoint checkpoint = collision.gameObject.GetComponent<Checkpoint>();
+
+            if (!checkpoint.isActive)
+            {
+                GameController.RespawnPoint(collision.gameObject);
+                respawnPoint = GameController.activeCheckpointPosition;
+            }
+            
+       }  
+    }
+    public static void FlipCharacter(Transform player)
+    {
+        Vector2 scaler = player.localScale;
+        scaler.y *= -1;
+        player.localScale = scaler;
+    }
+    public void ChangeGravity()
+    {
+        CharacterAnimations._isFacingRight = !CharacterAnimations._isFacingRight;
+        _player.Rotate(0, 0, 180);
+        CharacterAnimations._gravity *= -1;
+        _rb.gravityScale = CharacterAnimations._gravity;
+    }
 }

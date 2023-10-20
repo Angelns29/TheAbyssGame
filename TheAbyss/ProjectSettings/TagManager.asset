@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Trap
   - Audio
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

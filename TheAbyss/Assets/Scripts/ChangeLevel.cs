@@ -9,13 +9,7 @@ public class ChangeLevel : MonoBehaviour
     public static int sceneNum = 0;
     public Transform player;
 
-    /*private void OnTriggerEnter2D(Colider2D other)
-    {
-        if (other.CompareTag("Player")) {
 
-            SceneManager.LoadScene(sceneNum++);
-        }
-    }*/
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -24,7 +18,7 @@ public class ChangeLevel : MonoBehaviour
             case "NextLevel":
                 sceneNum++;
                 SceneManager.LoadScene(sceneNum);
-                player.position = new Vector3(-10, -15, 0);
+                player.position = new Vector3(-10,-15,0);//GameController.activeCheckpoint.position;
                 DontDestroyOnLoad(gameObject);
                 break;
             case "ReturnLevel":
