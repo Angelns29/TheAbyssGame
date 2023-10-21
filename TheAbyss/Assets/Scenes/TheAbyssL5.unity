@@ -256,7 +256,7 @@ Animator:
   m_GameObject: {fileID: 287126092}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 03c041ed3a6b0224c83f976cfefaf534, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1579,7 +1579,7 @@ GameObject:
   - component: {fileID: 878012081}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1698,7 +1698,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &878012082
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1777,6 +1777,7 @@ MonoBehaviour:
   rightEdge: {fileID: 2064695641}
   enemy: {fileID: 878012080}
   speed: 1
+  soundManager: {fileID: 0}
 --- !u!4 &1536474057
 Transform:
   m_ObjectHideFlags: 0

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheAbyssL5S2.unity
     guid: 358b7a8927c5e02409f6c1b12ac8a027
+  - enabled: 1
+    path: Assets/Scenes/TheAbyssL6Final.unity
+    guid: 1cc42256a70d619478abbc20cca05905
   m_configObjects: {}

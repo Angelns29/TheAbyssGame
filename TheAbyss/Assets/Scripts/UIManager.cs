@@ -12,11 +12,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject startMenu;
     [Header("Pause")]
     [SerializeField] private GameObject pauseMenu;
+    [Header("Final")]
+    [SerializeField] private GameObject finalMenu;
 
-    void Awake()
-    {
-        //pauseMenu.SetActive(false);
-    }
     // Update is called once per frame
     void Update()
     {
@@ -49,6 +47,10 @@ public class UIManager : MonoBehaviour
     public void StartMusic()
     {
         audios.mute = false;
+    }
+    public void EndGame()
+    {
+        finalMenu.SetActive(true);
     }
     #region Pause
     private void PauseGame(bool status)

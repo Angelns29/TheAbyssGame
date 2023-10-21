@@ -10,12 +10,19 @@ public class SoundManagerScript : MonoBehaviour
 
     [Header("------------Audio Clips -------------")]
     public AudioClip background;
+    public AudioClip finalGameSound;
     public AudioClip attack;
     public AudioClip death;
     public AudioClip enemy;
     public void Start()
     {
         musicSource.clip = background;
+        musicSource.Play();
+    }
+    public void PlayFinalSong()
+    {
+        musicSource.Stop();
+        musicSource.clip = finalGameSound;
         musicSource.Play();
     }
     public void PlaySFX(AudioClip audio) {

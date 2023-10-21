@@ -8,6 +8,7 @@ TagManager:
   - Audio
   - Checkpoint
   - LoadPj
+  - Enemy
   layers:
   - Default
   - TransparentFX
