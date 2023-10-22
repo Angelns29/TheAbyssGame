@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using TMPro;
-using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -53,6 +52,7 @@ public class PlayerLife : MonoBehaviour
     IEnumerator respawnPlayer()
     {
         yield return new WaitForSeconds(2);
+        GameManager.AddDeath();
         _rb.constraints = originalRb;
         _player.position = _changeLevel.checkpoint;
         _rb.gravityScale = 4;

@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    public UIManager uiManager;
     public GameObject go;
     public AudioSource audios;
     public static bool JuegoPausado = false;
@@ -14,11 +17,23 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [Header("Final")]
     [SerializeField] private GameObject finalMenu;
+    [SerializeField] private TMP_Text deathText;
+    [SerializeField] private TMP_Text timeText;
 
+    void Awake()
+    {
+        if (uiManager == null)
+        {
+            uiManager = this;
+            DontDestroyOnLoad(gameObject);
+
+        }
+        else  Destroy(gameObject);
+    }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Joystick1Button8))
         {
             if (pauseMenu.activeInHierarchy)
             {
@@ -34,6 +49,7 @@ public class UIManager : MonoBehaviour
     }
     public void DisableStart()
     {
+        GameManager.StartTimer();
         startMenu.SetActive(false);
     }
     public void ExitGame()
@@ -50,6 +66,16 @@ public class UIManager : MonoBehaviour
     }
     public void EndGame()
     {
+        GameManager.StopTime();
+        StartCoroutine(ShowInfo());
+
+        
+    }
+    IEnumerator ShowInfo()
+    {
+        yield return new WaitForSeconds(1);
+        deathText.text += GameManager.GetDeaths();
+        timeText.text += GameManager.timerText;
         finalMenu.SetActive(true);
     }
     #region Pause
@@ -74,5 +100,5 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene("The Abyss");
     }
-    #endregion
+    #endregion 
 }

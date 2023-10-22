@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
+    [DoNotSerialize]public static SoundManagerScript soundManagerScript;
     [Header("------------Audio Source --------------")]
     [SerializeField]AudioSource musicSource;
     [SerializeField] AudioSource sfxSource;
@@ -14,6 +16,17 @@ public class SoundManagerScript : MonoBehaviour
     public AudioClip attack;
     public AudioClip death;
     public AudioClip enemy;
+
+    void Awake()
+    {
+        if (soundManagerScript == null)
+        {
+            soundManagerScript = this;
+            DontDestroyOnLoad(gameObject);
+
+        }
+        else Destroy(gameObject);
+    }
     public void Start()
     {
         musicSource.clip = background;

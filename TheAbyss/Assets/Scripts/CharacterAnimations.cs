@@ -17,6 +17,8 @@ public class CharacterAnimations : MonoBehaviour
     [SerializeField] private LayerMask _groundLayer;
 
     private float _horizontal;
+    private float _vertical;
+    private float _roll;
     private float _speed;
     public static int _gravity;
     public static bool _isFacingRight;
@@ -29,12 +31,10 @@ public class CharacterAnimations : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+        }
+        else Destroy(gameObject);
 
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+
         _animator = gameObject.GetComponent<Animator>();
         _rb= GetComponent<Rigidbody2D>();
         _sr= GetComponent<SpriteRenderer>();
@@ -51,6 +51,8 @@ public class CharacterAnimations : MonoBehaviour
     void Update()
     {
         _horizontal = Input.GetAxisRaw("Horizontal");
+        _vertical = Input.GetAxisRaw("Vertical");
+        _roll = Input.GetAxisRaw("Roll");
         Flip();
 
         //Animacion Personaje Corriendo
@@ -58,48 +60,47 @@ public class CharacterAnimations : MonoBehaviour
         else _animator.SetBool("isRunning", false);
 
         //Personaje Ataca
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Joystick1Button2))
         {
             _animator.SetBool("isAttacking", true);
             soundManager.PlaySFX(soundManager.attack);
         }
-        if (Input.GetKeyUp(KeyCode.Z))
+        if (Input.GetKeyUp(KeyCode.Z) || Input.GetKeyDown(KeyCode.Joystick1Button2))
         {
             _animator.SetBool("isAttacking", false);
         }
 
         //Esquive
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (_roll != 0)
         {
-            /*if (_sr.flipX == true)
-            {
-                _rb.velocity = new Vector2(-4, 0);
-            }
-            else if (_sr.flipX == false)
-            {
-                _rb.velocity = new Vector2(4, 0);
-            }*/
             _animator.SetBool("isRunning", false);
             _animator.SetBool("isRolling", true);
-
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        else
         {
-            //_rb.velocity = Vector2.zero;
             _animator.SetBool("isRolling", false);
-            _animator.SetBool("isRunning", true);
+            //_animator.SetBool("isRunning", true);
         }
+
+        
         //Cambio Gravedad
-        if ((Input.GetKeyDown(KeyCode.UpArrow) || UnityEngine.Input.GetKeyDown(KeyCode.Joystick1Button0)) && IsGrounded())
+        if (_vertical == 1 && IsGrounded())
         {
-            ChangeGravity();
-            gravityActive = false;
+            if (gravityActive)
+            {
+                ChangeGravity();
+                gravityActive = false;
+            }
         }
-        if ((Input.GetKeyDown(KeyCode.DownArrow) || UnityEngine.Input.GetKeyDown(KeyCode.Joystick1Button0)) && IsGrounded())
+        else if (_vertical == -1 && IsGrounded())
         {
-            ChangeGravity();
-            gravityActive = true;
+            if (gravityActive == false)
+            {
+                ChangeGravity();
+                gravityActive = true;
+            }
         }
+
     }
     private void FixedUpdate()
     {
