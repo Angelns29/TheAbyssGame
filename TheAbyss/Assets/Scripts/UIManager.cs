@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public UIManager uiManager;
+    [DoNotSerialize]public UIManager uiManager;
     public GameObject go;
     public AudioSource audios;
     public static bool JuegoPausado = false;

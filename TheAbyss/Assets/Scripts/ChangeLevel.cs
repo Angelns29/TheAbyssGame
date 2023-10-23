@@ -8,7 +8,7 @@ public class ChangeLevel : MonoBehaviour
 {
     public static int sceneNum = 0;
     public Transform player;
-    public Vector3 checkpoint;
+    [NonSerialized]public Vector3 checkpoint;
     public UIManager _canvasManager;
     public SoundManagerScript _soundManager;
     void FixedUpdate()
@@ -44,7 +44,7 @@ public class ChangeLevel : MonoBehaviour
                 sceneNum--;
                 SceneManager.LoadScene(sceneNum);
                 Position = GetLoadPJ();
-                player.position = new Vector3(player.position.x, Position.y+7, player.position.z);
+                player.position = new Vector3(player.position.x, Position.y + 7, player.position.z);
                 break;
             case "Final":
                 _soundManager.PlayFinalSong();

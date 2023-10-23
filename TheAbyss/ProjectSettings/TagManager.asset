@@ -9,6 +9,8 @@ TagManager:
   - Checkpoint
   - LoadPj
   - Enemy
+  - Boom
+  - EndBoom
   layers:
   - Default
   - TransparentFX

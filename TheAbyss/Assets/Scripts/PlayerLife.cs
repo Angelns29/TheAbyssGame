@@ -28,7 +28,7 @@ public class PlayerLife : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boom"))
         {
             //PENDIENTE: HACER QUE NO GIRE EL PERSONAJE 
             if (CharacterAnimations.gravityActive == false)

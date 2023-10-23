@@ -12,19 +12,8 @@ public class GameManager : MonoBehaviour
     private float timer;
     public static string timerText;
     public static bool timerActive = false;
-    private Stack<GameObject> stack = new Stack<GameObject>();
-    public void Push(GameObject go)
-    {
-        stack.Push(go);
-    }
-    public void Pop()
-    {
-        stack.Pop().SetActive(true);
-    }
-    public void Peek()
-    {
-        stack.Peek().SetActive(false);
-    }
+    private static Stack<GameObject> stack;
+    
     private void Awake()
     {
         if (gameManager == null)
@@ -34,11 +23,13 @@ public class GameManager : MonoBehaviour
         }
         else Destroy(gameManager);
     }
+    
     // Start is called before the first frame update
     void Start()
     {
         timer = 0;
         _deaths = 0;
+        stack = new Stack<GameObject>();
     }
     public static void StartTimer()
     {
@@ -69,4 +60,19 @@ public class GameManager : MonoBehaviour
     {
         return _deaths;
     }
+
+    #region pool
+    public static void Push(GameObject go)
+    {
+        stack.Push(go);
+    }
+    public static void Pop()
+    {
+        stack.Pop().SetActive(true);
+    }
+    public static void Peek()
+    {
+        stack.Peek().SetActive(false);
+    }
+    #endregion
 }
