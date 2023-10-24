@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
 {
     [DoNotSerialize]public UIManager uiManager;
     public GameObject go;
+    private GameObject audioObject;
     public AudioSource audios;
     public static bool JuegoPausado = false;
     [Header("Start")]
@@ -27,9 +28,10 @@ public class UIManager : MonoBehaviour
         {
             uiManager = this;
             DontDestroyOnLoad(gameObject);
-
         }
         else  Destroy(gameObject);
+        audioObject = GameObject.Find("Music");
+        audios = audioObject.GetComponent<AudioSource>();
     }
     // Update is called once per frame
     void Update()

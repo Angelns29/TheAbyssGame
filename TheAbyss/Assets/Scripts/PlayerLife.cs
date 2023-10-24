@@ -26,11 +26,15 @@ public class PlayerLife : MonoBehaviour
         soundManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<SoundManagerScript>();
         _changeLevel = GetComponent<ChangeLevel>();
     }
+    void Update()
+    {
+        
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boom"))
         {
-            //PENDIENTE: HACER QUE NO GIRE EL PERSONAJE 
             if (CharacterAnimations.gravityActive == false)
             {
                 CharacterAnimations.gravityActive = true;
@@ -45,6 +49,8 @@ public class PlayerLife : MonoBehaviour
                 _animator.SetBool("isDeath", true);
                 soundManager.PlaySFX(soundManager.death);
                 _rb.constraints = RigidbodyConstraints2D.FreezePositionX;
+                
+                
                 StartCoroutine(respawnPlayer());
             }
         }
@@ -52,6 +58,11 @@ public class PlayerLife : MonoBehaviour
     IEnumerator respawnPlayer()
     {
         yield return new WaitForSeconds(2);
+        if (_player.rotation.eulerAngles.z != 0)
+        {
+            Vector3 eulerRotation = _player.rotation.eulerAngles;
+            _player.rotation = Quaternion.Euler(eulerRotation.x, eulerRotation.y, 0);
+        }
         GameManager.AddDeath();
         _rb.constraints = originalRb;
         _player.position = _changeLevel.checkpoint;

@@ -2368,7 +2368,7 @@ GameObject:
   - component: {fileID: 374539087}
   - component: {fileID: 374539086}
   - component: {fileID: 374539085}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2501,7 +2501,7 @@ GameObject:
   - component: {fileID: 513400735}
   - component: {fileID: 513400734}
   - component: {fileID: 513400733}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2884,7 +2884,7 @@ GameObject:
   - component: {fileID: 600829393}
   - component: {fileID: 600829395}
   - component: {fileID: 600829394}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3018,7 +3018,7 @@ GameObject:
   - component: {fileID: 646995742}
   - component: {fileID: 646995744}
   - component: {fileID: 646995743}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PauseLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3435,7 +3435,7 @@ GameObject:
   - component: {fileID: 890702910}
   - component: {fileID: 890702912}
   - component: {fileID: 890702911}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4983,6 +4983,7 @@ GameObject:
   - component: {fileID: 1531644148}
   - component: {fileID: 1531644147}
   - component: {fileID: 1531644146}
+  - component: {fileID: 1531644149}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -5040,6 +5041,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1531644149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531644145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c4898b9b45b484b96f21e2fd6cb23d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instance: {fileID: 0}
 --- !u!1 &1562552588
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,7 +5399,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1623880346}
-  checkpoint: {x: 0, y: 0, z: 0}
   _canvasManager: {fileID: 70952832}
   _soundManager: {fileID: 1001971752}
 --- !u!114 &1623880352
@@ -5604,7 +5617,7 @@ GameObject:
   - component: {fileID: 1690999685}
   - component: {fileID: 1690999687}
   - component: {fileID: 1690999686}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5738,7 +5751,7 @@ GameObject:
   - component: {fileID: 1691508756}
   - component: {fileID: 1691508758}
   - component: {fileID: 1691508757}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PauseBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5814,7 +5827,7 @@ GameObject:
   - component: {fileID: 1722094618}
   - component: {fileID: 1722094617}
   - component: {fileID: 1722094616}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6047,7 +6060,7 @@ GameObject:
   - component: {fileID: 1770088835}
   - component: {fileID: 1770088837}
   - component: {fileID: 1770088836}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
