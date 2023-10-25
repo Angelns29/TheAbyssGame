@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     private float timer;
     public static string timerText;
     public static bool timerActive = false;
-    private static Stack<GameObject> stack;
+    //private static Stack<GameObject> stack;
     
     private void Awake()
     {
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     {
         timer = 0;
         _deaths = 0;
-        stack = new Stack<GameObject>();
+        //stack = new Stack<GameObject>();
     }
     public static void StartTimer()
     {
@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
         return _deaths;
     }
 
-    #region pool
+    /*#region pool
     public static void Push(GameObject go)
     {
         stack.Push(go);
@@ -74,5 +74,5 @@ public class GameManager : MonoBehaviour
     {
         stack.Peek().SetActive(false);
     }
-    #endregion
+    #endregion*/
 }

@@ -65,7 +65,7 @@ public class PlayerLife : MonoBehaviour
         }
         GameManager.AddDeath();
         _rb.constraints = originalRb;
-        _player.position = _changeLevel.checkpoint;
+        _player.position = GetCheckpoint();
         _rb.gravityScale = 4;
         _animator.SetBool("isDeath", false);
 
@@ -90,6 +90,23 @@ public class PlayerLife : MonoBehaviour
         {
             Checkpoint checkpoint = collision.gameObject.GetComponent<Checkpoint>();
             checkpoint.Activate();
+        }
+
+    }
+    public Vector3 GetCheckpoint()
+    {
+        GameObject newCheckpoint = GameObject.Find("Checkpoint");
+        if (newCheckpoint != null)
+        {
+            return newCheckpoint.transform.position;
+            //player.position = new Vector3(-10,-15,0);//GameController.activeCheckpoint.position;
+        }
+        else
+        {
+            //Debug.LogError("No se encontro el Checkpoint");
+            SceneManager.LoadScene(--ChangeLevel.sceneNum);
+            return ChangeLevel.checkpoint;
+
         }
     }
 }

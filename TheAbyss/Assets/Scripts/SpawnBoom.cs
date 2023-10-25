@@ -5,36 +5,39 @@ using UnityEngine;
 
 public class SpawnBoom : MonoBehaviour
 {
-    [DoNotSerialize] private Transform spawn;
-    public int maxBombs;
-    public float interval = 3f;
+    [DoNotSerialize] private static Transform spawn;
+    public float secondsWait;
+    //public int maxBombs;
     public GameObject bomb;
-    public Transform bombPos;
+    private static ProyectilMovement bomb1;
+    public static Transform bombTr;
+    //public Rigidbody2D bombPos;
     private static Stack<GameObject> stack = new Stack<GameObject>();
 
-    private void Awake()
-    {
-        for (int i = 1; i <= maxBombs; i++)
-        {
-            GameObject BOMBA = Instantiate(bomb, transform.position, Quaternion.identity);
-            BOMBA.name = "Bomb_"+i.ToString();
-            Push(BOMBA);
-        }
-    }
+    
     // Start is called before the first frame update
     private void Start()
     {
-        bomb = GetComponent<GameObject>();
-        StartCoroutine(GenerarBombasConRetraso());
+        GameObject bomb = GameObject.Find("boom");
+        //bombPos = GetComponent<Rigidbody2D>();
+        StartCoroutine(CreateBombs());
     }
-
+    private void Awake()
+    {
+        spawn = GetComponent<Transform>();
+        GameObject bombInstance = Instantiate(bomb, transform.position, Quaternion.identity);
+        bombInstance.name = "Bomb_1";
+        Push(bombInstance);
+    }
     // Update is called once per frame
-    IEnumerator GenerarBombasConRetraso()
+    IEnumerator CreateBombs()
     {
         while (true)
         {
+            yield return new WaitForSeconds(secondsWait);
             Pop();
-            yield return new WaitForSeconds(interval);
+            bomb1 = GetComponent<ProyectilMovement>();
+            bomb1.Activate();
         }
     }
     private void Update()
@@ -45,6 +48,10 @@ public class SpawnBoom : MonoBehaviour
 
     public static void Push(GameObject go)
     {
+        bomb1 = go.GetComponent<ProyectilMovement>();
+        bomb1.Desactivate();
+        bombTr = go.GetComponent<Transform>();
+        bombTr.position = spawn.position;
         stack.Push(go);
     }
     public static void Pop()

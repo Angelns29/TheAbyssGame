@@ -325,6 +325,7 @@
 "Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/KeepBackground.cs"
+"Assets/Scripts/KeepEventSystem.cs"
 "Assets/Scripts/Parallax.cs"
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/ProyectilMovement.cs"

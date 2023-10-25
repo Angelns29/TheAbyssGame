@@ -8,7 +8,7 @@ public class ChangeLevel : MonoBehaviour
 {
     public static int sceneNum = 0;
     public Transform player;
-    [NonSerialized]public Vector3 checkpoint;
+    [NonSerialized]public static Vector3 checkpoint;
     public UIManager _canvasManager;
     public SoundManagerScript _soundManager;
     void FixedUpdate()

@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - EnemyMovement
     - GameManager
     - KeepBackground
+    - KeepEventSystem
     - Parallax
     - PlayerLife
     - ProyectilMovement
@@ -18,7 +19,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -58,10 +58,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -170,49 +168,51 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 16666}
+      Script: {instanceID: 16672}
     - Class: 114
-      Script: {instanceID: 17384}
+      Script: {instanceID: 17390}
     - Class: 114
-      Script: {instanceID: 17912}
+      Script: {instanceID: 17918}
     - Class: 114
-      Script: {instanceID: 18162}
+      Script: {instanceID: 18168}
     - Class: 114
-      Script: {instanceID: 18510}
+      Script: {instanceID: 18516}
     - Class: 114
-      Script: {instanceID: 19356}
+      Script: {instanceID: 19362}
     - Class: 114
-      Script: {instanceID: 19488}
+      Script: {instanceID: 19494}
     - Class: 114
-      Script: {instanceID: 19652}
+      Script: {instanceID: 19658}
     - Class: 114
-      Script: {instanceID: 19692}
+      Script: {instanceID: 19698}
     - Class: 114
-      Script: {instanceID: 19776}
+      Script: {instanceID: 19782}
     - Class: 114
-      Script: {instanceID: 19798}
+      Script: {instanceID: 19804}
     - Class: 114
-      Script: {instanceID: 20118}
+      Script: {instanceID: 20124}
     - Class: 114
-      Script: {instanceID: 20450}
+      Script: {instanceID: 20456}
     - Class: 114
-      Script: {instanceID: 21044}
+      Script: {instanceID: 21050}
     - Class: 114
-      Script: {instanceID: 21124}
+      Script: {instanceID: 21130}
     - Class: 114
-      Script: {instanceID: 21136}
+      Script: {instanceID: 21142}
     - Class: 114
-      Script: {instanceID: 21758}
+      Script: {instanceID: 21764}
     - Class: 114
-      Script: {instanceID: 21966}
+      Script: {instanceID: 21972}
     - Class: 114
-      Script: {instanceID: 21974}
+      Script: {instanceID: 21980}
     - Class: 114
-      Script: {instanceID: 22378}
+      Script: {instanceID: 22350}
     - Class: 114
-      Script: {instanceID: 22914}
+      Script: {instanceID: 22386}
+    - Class: 114
+      Script: {instanceID: 22922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -269,9 +269,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 23708}
+      Script: {instanceID: 23716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -307,8 +307,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
-    - Class: 62
-      Script: {instanceID: 0}
     - Class: 66
       Script: {instanceID: 0}
     - Class: 74
@@ -322,9 +320,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 23708}
+      Script: {instanceID: 23716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -373,9 +371,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 23708}
+      Script: {instanceID: 23716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -424,13 +422,13 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 21124}
+      Script: {instanceID: 21130}
     - Class: 114
-      Script: {instanceID: 21636}
+      Script: {instanceID: 21642}
     - Class: 114
-      Script: {instanceID: 23708}
+      Script: {instanceID: 23716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -466,8 +464,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 66
       Script: {instanceID: 0}
     - Class: 74
@@ -481,11 +477,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 17080}
+      Script: {instanceID: 17086}
     - Class: 114
-      Script: {instanceID: 23708}
+      Script: {instanceID: 23716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -528,7 +524,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 640}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -571,7 +567,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 640}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1401,7 +1397,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 1f06c0e6873c372333512418ec6a0b5b
+      Hash: 0f94e9ff1e17ef2fea9dd63690c54786
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SpawnBoom
@@ -1471,6 +1467,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3da1387d022c56446e49fb40109439ac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KeepEventSystem
   - hash:
       serializedVersion: 2
       Hash: 751d867553f413cde86fe5db0b02780d

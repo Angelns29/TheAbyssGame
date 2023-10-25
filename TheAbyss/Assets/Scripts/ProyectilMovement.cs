@@ -11,10 +11,15 @@ public class ProyectilMovement : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        _rb.velocity = _velocity;
-
     }
-
+    public void Activate()
+    {
+        _rb.velocity = _velocity;
+    }
+    public void Desactivate()
+    {
+        _rb.velocity =  new (0,0);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("EndBoom")|| collision.gameObject.CompareTag("Player"))
