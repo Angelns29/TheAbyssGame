@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -33,7 +34,7 @@ public class PlayerLife : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         
-        if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Boom"))
+        if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Enemy"))
         {
             if (CharacterAnimations.gravityActive == false)
             {
@@ -86,6 +87,13 @@ public class PlayerLife : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Boom"))
+        {
+            _animator.SetBool("isDeath", true);
+            soundManager.PlaySFX(soundManager.death);
+            _rb.constraints = RigidbodyConstraints2D.FreezePositionX;
+            StartCoroutine(respawnPlayer());
+        }
         if (collision.gameObject.CompareTag("Checkpoint"))
         {
             Checkpoint checkpoint = collision.gameObject.GetComponent<Checkpoint>();

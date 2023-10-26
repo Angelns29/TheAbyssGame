@@ -1768,7 +1768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99502ac09aa1fc343a8fad5f12a7afee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiManager: {fileID: 0}
   go: {fileID: 70952827}
   audios: {fileID: 1009142768}
   startMenu: {fileID: 1965561630}
@@ -3764,8 +3763,9 @@ MonoBehaviour:
   sfxSource: {fileID: 566648958}
   background: {fileID: 8300000, guid: e81f38b29a6c1e745aaa431bc7a05fa6, type: 3}
   finalGameSound: {fileID: 8300000, guid: 82fb56071501b4b4a8cda1cd88b8e271, type: 3}
-  attack: {fileID: 8300000, guid: bfa6ca3486c81d34dafb2092a23d9e73, type: 3}
+  attack: {fileID: 8300000, guid: 04d7df0042b84004ba9995e1bd885310, type: 3}
   death: {fileID: 8300000, guid: 4723ab2c903280e40a6b0d563f105298, type: 3}
+  jump: {fileID: 8300000, guid: 961be3eeccd412146aa30e0805f440df, type: 3}
   enemy: {fileID: 8300000, guid: 524837777fef79248ba17f29df4a8cbd, type: 3}
 --- !u!4 &1001971753
 Transform:
@@ -3927,7 +3927,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.511
   m_Pitch: 1
   Loop: 1
   Mute: 1
@@ -5053,7 +5053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4c4898b9b45b484b96f21e2fd6cb23d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instance: {fileID: 0}
 --- !u!1 &1562552588
 GameObject:
   m_ObjectHideFlags: 0
@@ -5246,6 +5245,7 @@ GameObject:
   - component: {fileID: 1623880351}
   - component: {fileID: 1623880352}
   - component: {fileID: 1623880354}
+  - component: {fileID: 1623880355}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -5458,6 +5458,51 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.89502287, y: 2.532316}
+  m_EdgeRadius: 0
+--- !u!61 &1623880355
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623880343}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019189835, y: -0.045741916}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.6666667}
+    newSize: {x: 4, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4334126, y: 2.669285}
   m_EdgeRadius: 0
 --- !u!1 &1625687750
 GameObject:

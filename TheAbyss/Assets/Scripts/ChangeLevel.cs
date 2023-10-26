@@ -55,25 +55,17 @@ public class ChangeLevel : MonoBehaviour
     Vector3 GetLoadPJ()
     {
         GameObject newCheckpoint = GameObject.Find("LoadPj");
-        if (newCheckpoint != null)
-        {
-            return newCheckpoint.transform.position;
-            //player.position = new Vector3(-10,-15,0);//GameController.activeCheckpoint.position;
-        }
+        if (newCheckpoint != null) return newCheckpoint.transform.position;
         else
         {
             Debug.LogError("No se encontro el empty LoadPj");
             return checkpoint;
         }
     }
-    public Vector3 GetCheckpoint()
+    public static Vector3 GetCheckpoint()
     {
         GameObject newCheckpoint = GameObject.Find("Checkpoint");
-        if (newCheckpoint != null)
-        {
-            return newCheckpoint.transform.position;
-            //player.position = new Vector3(-10,-15,0);//GameController.activeCheckpoint.position;
-        }
+        if (newCheckpoint != null) return newCheckpoint.transform.position; 
         else
         {
             //Debug.LogError("No se encontro el Checkpoint");

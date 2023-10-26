@@ -8,11 +8,14 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    [DoNotSerialize]public UIManager uiManager;
+    public static UIManager uiManager;
     public GameObject go;
     private GameObject audioObject;
     public AudioSource audios;
     public static bool JuegoPausado = false;
+    [DoNotSerialize] private GameObject _player;
+    [DoNotSerialize] private GameObject _background;
+
     [Header("Start")]
     [SerializeField] private GameObject startMenu;
     [Header("Pause")]
@@ -27,15 +30,19 @@ public class UIManager : MonoBehaviour
         if (uiManager == null)
         {
             uiManager = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(uiManager);
         }
-        else  Destroy(gameObject);
+        else  Destroy(uiManager);
+
         audioObject = GameObject.Find("Music");
         audios = audioObject.GetComponent<AudioSource>();
+        _player = GameObject.Find("Character");
+        _background = GameObject.Find("Background");
     }
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Joystick1Button8))
         {
             if (pauseMenu.activeInHierarchy)
@@ -101,7 +108,10 @@ public class UIManager : MonoBehaviour
     }
     public void Reiniciar()
     {
-        SceneManager.LoadScene("The Abyss");
+        finalMenu.SetActive(false);
+        ChangeLevel.sceneNum = 0;
+        //SceneManager.LoadScene(0);
+        Application.LoadLevel(0);
     }
     #endregion 
 }

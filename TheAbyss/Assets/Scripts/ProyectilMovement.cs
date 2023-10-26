@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ProyectilMovement : MonoBehaviour
 {
+    private Transform _tr;
     private Rigidbody2D _rb;
     private Vector2 _velocity = new(-12f,0f);
 
@@ -11,21 +12,15 @@ public class ProyectilMovement : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-    }
-    public void Activate()
-    {
         _rb.velocity = _velocity;
+        _tr =  GetComponent<Transform>();
     }
-    public void Desactivate()
-    {
-        _rb.velocity =  new (0,0);
-    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("EndBoom")|| collision.gameObject.CompareTag("Player"))
         {
-            gameObject.SetActive(false);
-            SpawnBoom.Push(gameObject);
+            _tr.position = SpawnBoom.spawn.position;
         }
     }
 }

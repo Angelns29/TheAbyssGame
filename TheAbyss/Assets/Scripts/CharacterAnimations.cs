@@ -46,7 +46,6 @@ public class CharacterAnimations : MonoBehaviour
         _rb.gravityScale = _gravity;
         _isFacingRight = true;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -122,6 +121,7 @@ public class CharacterAnimations : MonoBehaviour
     }
     public void ChangeGravity()
     {
+        soundManager.PlaySFX(soundManager.jump);
         _isFacingRight = !_isFacingRight;
         _tr.Rotate(0, 0, 180);
         _gravity *= -1;

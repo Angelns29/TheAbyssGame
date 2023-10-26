@@ -15,6 +15,7 @@ public class SoundManagerScript : MonoBehaviour
     public AudioClip finalGameSound;
     public AudioClip attack;
     public AudioClip death;
+    public AudioClip jump;
     public AudioClip enemy;
 
     void Awake()
@@ -26,7 +27,9 @@ public class SoundManagerScript : MonoBehaviour
 
         }
         else Destroy(gameObject);
+        musicSource.volume = 0.5f;
     }
+
     public void Start()
     {
         musicSource.clip = background;

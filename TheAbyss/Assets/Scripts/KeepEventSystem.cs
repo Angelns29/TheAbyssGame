@@ -6,14 +6,14 @@ using UnityEngine;
 public class KeepEventSystem : MonoBehaviour
 {
 
-    [DoNotSerialize] public KeepEventSystem instance;
+    public static KeepEventSystem instance;
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(instance);
         }
-        else Destroy(gameObject);
+        else Destroy(instance);
     }
 }
