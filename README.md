@@ -18,6 +18,7 @@ Adentrate a las entrañas del Abismo y intenta escapar!.
   <li> Z ---- Atacar (No Implementado)</li>
   <li> Space ---- Esquivar (No Implementado)</li>
 </ul>
+
 <img width="15" height="10" src="https://i.pinimg.com/736x/4c/a5/e1/4ca5e18c26eecb9899187b0093a8c0cc.jpg"> **English**  
 Welcome to the Abyss
 The Abyss is the place where all people who have a dark soul go and will stay there for eternity.  
