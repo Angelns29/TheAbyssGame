@@ -7,20 +7,33 @@ public class ProyectilMovement : MonoBehaviour
     private Transform _tr;
     private Rigidbody2D _rb;
     private Vector2 _velocity = new(-12f,0f);
+    public Transform spawnUP;
+    public Transform spawnDown;
+    private SoundManagerScript _soundManager;
 
     // Start is called before the first frame update
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        _rb.velocity = _velocity;
         _tr =  GetComponent<Transform>();
     }
-
+    public void Move()
+    {
+        _rb.velocity = _velocity;
+        _soundManager.PlaySFX(_soundManager.bombSound);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("EndBoom")|| collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("EndBoom"))
         {
-            _tr.position = SpawnBoom.spawn.position;
+            if (_tr.name == "BombUp")
+            {
+                _tr.position = spawnUP.position;
+            }
+            else if (_tr.name == "BombDown")
+            {
+                _tr.position = spawnDown.position;
+            }
         }
     }
 }

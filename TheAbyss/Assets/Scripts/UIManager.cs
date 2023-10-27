@@ -110,8 +110,7 @@ public class UIManager : MonoBehaviour
     {
         finalMenu.SetActive(false);
         ChangeLevel.sceneNum = 0;
-        //SceneManager.LoadScene(0);
-        Application.LoadLevel(0);
+        SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
     }
     #endregion 
 }

@@ -5,23 +5,19 @@ using UnityEngine;
 
 public class SpawnBoom : MonoBehaviour
 {
-    [DoNotSerialize] public static Transform spawn;
+    public Transform spawn;
     public float secondsWait;
-    //public int maxBombs;
-    public GameObject bomb;
-    //public static Transform bombTr;
-    //public Rigidbody2D bombPos;
-    //private static Stack<GameObject> stack = new Stack<GameObject>();
+    public ProyectilMovement bomb;
 
     private void Awake()
     {
         spawn = GetComponent<Transform>();
-        StartCoroutine(CreateBomb());
+        StartCoroutine(ActivateeBomb());
     }
-    IEnumerator CreateBomb()
+    IEnumerator ActivateeBomb()
     {
         yield return new WaitForSeconds(secondsWait);
-        GameObject bombInstance = Instantiate(bomb, transform.position, Quaternion.identity);
-        bombInstance.name = "Bomb";
+        bomb.Move();
+        
     }
 }
