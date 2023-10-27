@@ -16,6 +16,7 @@ public class UIManager : MonoBehaviour
     public bool JuegoPausado = false;
     public bool resetGame = false;
     public ChangeLevel changeLevel;
+
     [DoNotSerialize] private GameObject _player;
     [DoNotSerialize] private GameObject _background;
 
@@ -124,6 +125,9 @@ public class UIManager : MonoBehaviour
         firstTime = true;
         pauseMenu.SetActive(false);
         finalMenu.SetActive(false);
+        deathText.text = "Deaths: ";
+        timeText.text = "Time: ";
+        SoundManagerScript.soundManagerScript.Start();
         changeLevel.PlayAgain();
 
 
