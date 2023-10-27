@@ -1,179 +1,451 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1698440343298798, "dur":13316, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698440343312131, "dur":1271, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698440343313468, "dur":413, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698440343314090, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level5" }}
-,{ "pid":12345, "tid":0, "ts":1698440343314355, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":0, "ts":1698440343315040, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1698440343313909, "dur":5048, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698440343318959, "dur":3987039, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698440347306000, "dur":191, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698440347306191, "dur":193, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698440347306555, "dur":12966, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1698440343314609, "dur":4423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698440343319039, "dur":451, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698440343319490, "dur":1378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698440343321133, "dur":104, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698440343321243, "dur":865, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698440343321240, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698440343322336, "dur":119, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698440343322503, "dur":161, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698440343322757, "dur":160, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698440343322939, "dur":15770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1698440343338774, "dur":579797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level5" }}
-,{ "pid":12345, "tid":1, "ts":1698440343918618, "dur":408571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1698440344327219, "dur":2978766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698440343314667, "dur":4381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698440343319054, "dur":421, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698440343319475, "dur":1466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698440343320942, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1698440343321151, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698440343321255, "dur":655, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698440343321254, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698440343321935, "dur":950, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698440343321934, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698440343322998, "dur":12053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1698440343335096, "dur":529723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1698440343864888, "dur":463920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1698440344328821, "dur":2977203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698440343315107, "dur":4027, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698440343319140, "dur":326, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698440343319467, "dur":1408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698440343320975, "dur":1111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":3, "ts":1698440343320975, "dur":1113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss.exe" }}
-,{ "pid":12345, "tid":3, "ts":1698440343322227, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698440343322384, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698440343322444, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698440343322577, "dur":140, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698440343322755, "dur":139, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698440343322906, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698440343322988, "dur":11339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1698440343334370, "dur":993938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1698440344328323, "dur":2977660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698440343314510, "dur":4482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698440343319002, "dur":260, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698440343319262, "dur":1583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698440343321136, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698440343321407, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698440343321533, "dur":650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698440343322185, "dur":1014, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698440343320851, "dur":2430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":4, "ts":1698440343569246, "dur":3735696, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":5, "ts":1698440343314409, "dur":4571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698440343318985, "dur":1855, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698440343322426, "dur":1743, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":5, "ts":1698440343324176, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1698440343324290, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1698440343324353, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1698440343324173, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1698440343326730, "dur":481255, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1698440343809629, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1698440343809628, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1698440343809773, "dur":518325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1698440344328100, "dur":2977909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698440343314572, "dur":4446, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698440343319023, "dur":218, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698440343319241, "dur":1602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698440343321014, "dur":80, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343321191, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343321190, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343321345, "dur":597, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343321344, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343321968, "dur":413, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343321967, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343322418, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343322496, "dur":205, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343322751, "dur":123, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698440343322933, "dur":11442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":6, "ts":1698440343334434, "dur":530307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1698440343864796, "dur":462215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1698440344327034, "dur":2978958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698440343314736, "dur":4328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698440343319069, "dur":303, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698440343319373, "dur":1488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698440343321041, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698440343321206, "dur":1028, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698440343321205, "dur":1030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698440343322499, "dur":111, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698440343322635, "dur":201, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698440343334292, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698440343322934, "dur":11453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":7, "ts":1698440343334429, "dur":992774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1698440344327225, "dur":2978779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698440343314921, "dur":4158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698440343319084, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698440343319366, "dur":1485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698440343321000, "dur":170, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1698440343321200, "dur":602, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698440343321200, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698440343321829, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698440343321828, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698440343321951, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698440343325328, "dur":8978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698440343334362, "dur":994416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1698440344328790, "dur":2977198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1698440343314930, "dur":4163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1698440343319099, "dur":365, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1698440343319465, "dur":1399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1698440343321041, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1698440343321099, "dur":167, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1698440343321268, "dur":366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1698440343321267, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1698440343321636, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1698440343321766, "dur":623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":9, "ts":1698440343321765, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":9, "ts":1698440343322435, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1698440343322635, "dur":147, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1698440343322930, "dur":12417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1698440343335373, "dur":366708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level6" }}
-,{ "pid":12345, "tid":9, "ts":1698440343702152, "dur":484646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level4" }}
-,{ "pid":12345, "tid":9, "ts":1698440344186876, "dur":141615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":9, "ts":1698440344328503, "dur":2977483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1698440343315008, "dur":4106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1698440343319119, "dur":384, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1698440343319504, "dur":1352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1698440343320925, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1698440343321148, "dur":1138, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":10, "ts":1698440343322293, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1698440343322385, "dur":62, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1698440343322500, "dur":150, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1698440343322750, "dur":100, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1698440343322940, "dur":11404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":10, "ts":1698440343334416, "dur":530241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":10, "ts":1698440343864705, "dur":462325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level1" }}
-,{ "pid":12345, "tid":10, "ts":1698440344327054, "dur":2978935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1698440343315159, "dur":3997, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1698440343319156, "dur":1703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1698440343320928, "dur":141, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1698440343321082, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1698440343321152, "dur":1158, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":11, "ts":1698440343322452, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1698440343322579, "dur":238, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1698440343322859, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1698440343322949, "dur":12111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":11, "ts":1698440343335096, "dur":464131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level7" }}
-,{ "pid":12345, "tid":11, "ts":1698440343799279, "dur":506742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level3" }}
-,{ "pid":12345, "tid":11, "ts":1698440344306035, "dur":2999961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1698440343315225, "dur":3944, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1698440343319169, "dur":1678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321001, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321157, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321225, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321224, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321438, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321437, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321626, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321704, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321703, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321850, "dur":368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343321849, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343322270, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343322327, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1698440343322491, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343322572, "dur":107, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1698440343322957, "dur":10320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":12, "ts":1698440343333350, "dur":465880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":12, "ts":1698440343799333, "dur":527653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/PruebaAbyss/TheAbyss_Data/level2" }}
-,{ "pid":12345, "tid":12, "ts":1698440344327004, "dur":2978990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698440347352471, "dur":858, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1698442719907867, "dur":59, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442719921898, "dur":53, "ph":"X", "name": "EmitBuildStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442719908000, "dur":16630, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442719924641, "dur":270, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442719925022, "dur":628, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442719925701, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1698442719925761, "dur":171, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1698442719925940, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926019, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926091, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926146, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926420, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level6" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926588, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926654, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926752, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926875, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1698442719926959, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698442719927041, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698442719927127, "dur":192, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":0, "ts":1698442719927461, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698442719927584, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698442719927688, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698442719927769, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698442719927847, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698442719927921, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698442719928042, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698442719928144, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1698442719928305, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1698442719928463, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719928538, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719928667, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719928727, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719928950, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929071, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929149, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929232, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929342, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929419, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929524, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929601, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929678, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929802, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929880, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719929955, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719930121, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719930220, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719930278, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719930450, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719930630, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719930757, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719930912, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719931424, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719931537, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719931620, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719931701, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719931918, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719931982, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719932065, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719932240, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719932610, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719932790, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719932913, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933103, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933168, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933250, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933455, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933536, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933615, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933782, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933903, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719933979, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719934144, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719934415, "dur":158, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719934623, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719934866, "dur":157, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719935217, "dur":156, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719935472, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719935718, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719935817, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719935898, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719936088, "dur":153, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719936249, "dur":535, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719936846, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719936906, "dur":139, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719937052, "dur":118, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698442719937188, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":0, "ts":1698442719937313, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1698442719937706, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1698442719937859, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1698442719937986, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1698442719938097, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1698442719938176, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1698442719938302, "dur":205, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1698442719938554, "dur":106, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1698442719938683, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1698442719938899, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1698442719939252, "dur":127, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1698442719925689, "dur":13738, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442719939430, "dur":15075930, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442735015361, "dur":541, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442735016095, "dur":13117, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698442719926354, "dur":13098, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698442719939453, "dur":29503, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698442720088191, "dur":18224, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1698442720106424, "dur":463, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698442720106904, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1698442720107577, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player09764d5a-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1698442720107821, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":1, "ts":1698442720106422, "dur":1735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698442720108759, "dur":86, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698442720108859, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698442720172489, "dur":582642, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698442720758886, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698442720758884, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698442721189027, "dur":674, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698442720759329, "dur":430407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698442721189787, "dur":582555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698442721772399, "dur":121591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698442721894343, "dur":196384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698442722090770, "dur":152410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698442722243213, "dur":115, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698442722243334, "dur":243208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698442722486589, "dur":20172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698442722506819, "dur":14734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698442722892548, "dur":116, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698442722521593, "dur":371153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698442722892814, "dur":553989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698442723446874, "dur":2527699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698442725974737, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698442725974833, "dur":2744314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level6" }}
+,{ "pid":12345, "tid":1, "ts":1698442728719198, "dur":1224599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698442729943847, "dur":5071542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442719927008, "dur":14590, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442719941598, "dur":27364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442719968992, "dur":682, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442720421994, "dur":717335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1698442721193063, "dur":96, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442721139377, "dur":53814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442721193360, "dur":434735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442721628210, "dur":194125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442721896756, "dur":124, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442721822383, "dur":74528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442721897012, "dur":192411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442722089507, "dur":143228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442722232835, "dur":251583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442722484469, "dur":16623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442722501156, "dur":196840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442723252659, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442722698061, "dur":554740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698442723252952, "dur":316, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442725228784, "dur":435, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442723253277, "dur":1975967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698442725229314, "dur":118, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698442725229439, "dur":3948456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698442729177950, "dur":5837422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442719926464, "dur":15113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442719941578, "dur":27612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442719969192, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1698442719973931, "dur":77553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1698442720051530, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698442720051527, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698442720053154, "dur":35208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698442720088410, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1698442720442501, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442720088606, "dur":354018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1698442720442722, "dur":647631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442721090403, "dur":92, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442721090502, "dur":100442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442721191020, "dur":278462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442721469547, "dur":352489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442721822096, "dur":74895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442721897080, "dur":266, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442721897355, "dur":195270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442722092688, "dur":151109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442722243846, "dur":253737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442722497638, "dur":40883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442723251190, "dur":317, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442722538579, "dur":712957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698442725228754, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442723251620, "dur":1977226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698442725228946, "dur":339, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442727712869, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442725229294, "dur":2483786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1698442728837355, "dur":210, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698442727713126, "dur":1124466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1698442728837641, "dur":6177689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698442719926922, "dur":14682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698442719941605, "dur":27363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698442719969179, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719969738, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719970042, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719970221, "dur":468, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719970692, "dur":1113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719971809, "dur":341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719972153, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719972469, "dur":834, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719973307, "dur":188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719973498, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719973693, "dur":424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719974119, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719974348, "dur":600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719974951, "dur":376, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719975330, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719975479, "dur":1273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719976755, "dur":746, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719977504, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698442719977850, "dur":44556, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\DAM\\2\\M17\\TheAbyss\\Library\\PackageCache\\com.unity.burst@1.8.8\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698442719968977, "dur":53431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":4, "ts":1698442720073324, "dur":14896387, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":4, "ts":1698442734971394, "dur":43841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442719926804, "dur":14807, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698442719941611, "dur":27730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698442719969342, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1698442720069652, "dur":248, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698442720070046, "dur":36708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1698442720106789, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442720106786, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442721191897, "dur":236, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698442720106880, "dur":1085506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442721192671, "dur":435396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442721628149, "dur":191606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442721896794, "dur":149, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698442721819838, "dur":77122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442721897088, "dur":193551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442722090695, "dur":142022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442722232779, "dur":270036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442722502909, "dur":19997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442722522961, "dur":506251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698442725228760, "dur":342, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698442723029284, "dur":2199845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698442725229206, "dur":176, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698442725229389, "dur":2483659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1698442728837540, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698442727713095, "dur":1124535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1698442728837663, "dur":6177665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698442719927147, "dur":14437, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698442719941585, "dur":27510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698442719969115, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1698442719969096, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1698442720442479, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698442720108561, "dur":334008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1698442720442641, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698442720442703, "dur":718133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442721161148, "dur":466904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442721628104, "dur":191644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442721897576, "dur":341, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698442721819821, "dur":78119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442721898001, "dur":194587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442722092696, "dur":150261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442722243123, "dur":244448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442722487626, "dur":16631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442722504309, "dur":16718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442722521065, "dur":371523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442723252790, "dur":456, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698442722892758, "dur":360518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698442723253360, "dur":2491181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1698442728200316, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698442725744640, "dur":2455772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1698442728200473, "dur":1477884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1698442729678381, "dur":5337128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442719927070, "dur":14521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442719941591, "dur":27491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442719969083, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1698442720069615, "dur":105, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442719970739, "dur":99006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1698442720069793, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698442720069870, "dur":484, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442720102905, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442720070413, "dur":32575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698442720103063, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442720103161, "dur":448668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442721159571, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442720551895, "dur":607789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442721159919, "dur":434, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442721160447, "dur":281947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442721442729, "dur":379760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442721822591, "dur":224229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442722046923, "dur":43407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442722090377, "dur":679, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442722242970, "dur":385, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442722091063, "dur":152309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442722243427, "dur":247615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442722491098, "dur":54048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442722545203, "dur":707409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698442725228764, "dur":395, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442723252801, "dur":1976384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698442725229255, "dur":76, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442725229339, "dur":2483587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1698442728837606, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698442727712980, "dur":1124713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1698442728837760, "dur":6177754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698442719927207, "dur":14348, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698442719941556, "dur":27713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698442719969270, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698442720042814, "dur":26847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698442720069692, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1698442720069768, "dur":37288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1698442720107085, "dur":1104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":8, "ts":1698442720107084, "dur":1108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/TheAbyss.exe" }}
+,{ "pid":12345, "tid":8, "ts":1698442720108231, "dur":443887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss.exe" }}
+,{ "pid":12345, "tid":8, "ts":1698442721159963, "dur":544, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698442720552175, "dur":608364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442721160627, "dur":282103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442721442823, "dur":377996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442721820873, "dur":70982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442722059481, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698442721891925, "dur":167630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442722059613, "dur":33179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442722092840, "dur":150080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442722242969, "dur":332, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698442722243306, "dur":246962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442722490324, "dur":30510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442722892594, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698442722520943, "dur":371795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442722892780, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442722892776, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442728837347, "dur":158, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698442722892880, "dur":5944652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698442728837580, "dur":6177779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442719927274, "dur":12300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442719939575, "dur":265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442719939840, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442719940091, "dur":246, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442719940337, "dur":378, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442719940716, "dur":217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442719940989, "dur":15949, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\sharedassets7.assets" }}
+,{ "pid":12345, "tid":9, "ts":1698442719956939, "dur":10796, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698442719967885, "dur":676, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1698442719940934, "dur":28613, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442720081201, "dur":6416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1698442720087736, "dur":27372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698442721035345, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442720191467, "dur":843998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1698442721194888, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442721035562, "dur":159539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442721195209, "dur":432720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442721628124, "dur":200021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442721828218, "dur":65784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442721894056, "dur":183767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442722077880, "dur":13234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442722091160, "dur":151856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442722243152, "dur":241511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442722484710, "dur":20994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442722505758, "dur":15555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442722521363, "dur":370987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442723745358, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442722892435, "dur":853025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698442723745515, "dur":1725, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442728200338, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698442723747249, "dur":4453214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698442728200547, "dur":1779209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698442729979779, "dur":5035585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442719927334, "dur":13887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442719941221, "dur":27971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442719969193, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1698442719975054, "dur":94018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1698442720069106, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1698442720069103, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1698442720086949, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442720069202, "dur":17950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1698442720087194, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1698442720087190, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1698442720087355, "dur":85378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1698442721159691, "dur":1029, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442720191557, "dur":969254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442721161039, "dur":467282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442721628394, "dur":195911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442721891803, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442721824353, "dur":67518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442721891920, "dur":167524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442722059491, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442722059584, "dur":31268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442722090897, "dur":379497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442722470448, "dur":14474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442722485017, "dur":35958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442723251104, "dur":108, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442722521023, "dur":730320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698442723251430, "dur":733388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1698442726597621, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698442723985045, "dur":2612715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1698442726597814, "dur":2121850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1698442728719717, "dur":1224115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1698442729943882, "dur":5071566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442719927421, "dur":13682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442719941176, "dur":26271, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698442719968015, "dur":723, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\level2" }}
+,{ "pid":12345, "tid":11, "ts":1698442719941104, "dur":28112, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442719969241, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1698442719969218, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1698442719976292, "dur":91309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1698442720067662, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1698442720067799, "dur":20373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1698442720088244, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698442720088240, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698442720088327, "dur":111, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442720088446, "dur":84026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1698442720191546, "dur":996566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442721188205, "dur":281337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442721469608, "dur":352899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442721896842, "dur":641, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442721822605, "dur":74895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442722090389, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442721897556, "dur":192963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442722242968, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442722090678, "dur":152447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442722243210, "dur":246194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442722505651, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442722489466, "dur":16259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442722505776, "dur":15086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442722520979, "dur":371726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698442722892897, "dur":849730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698442723742663, "dur":177, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442728837338, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698442723742846, "dur":5094605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698442728837602, "dur":6177753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442719927509, "dur":12007, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442719939525, "dur":278, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442719939817, "dur":1414, "ph":"X", "name": "File",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442719939803, "dur":1659, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442719941463, "dur":27864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442719969348, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1698442719969329, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1698442720071760, "dur":31205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1698442720442510, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442720103148, "dur":339505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1698442721090161, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442720442762, "dur":647531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442721090391, "dur":183344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442721273791, "dur":494454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442721768340, "dur":51108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442721896750, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442721819752, "dur":77119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442721896919, "dur":546, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442722090651, "dur":272, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442721897497, "dur":193441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442722243021, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442722090986, "dur":152165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442722243204, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442722243264, "dur":242675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442722485988, "dur":18412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442722504444, "dur":17092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442722521583, "dur":370835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442722892493, "dur":408988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698442723301560, "dur":2442978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1698442725744605, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698442725744670, "dur":2455720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level7" }}
+,{ "pid":12345, "tid":12, "ts":1698442728200485, "dur":1569764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/DAM/2/M17/TheAbyssGame/TheAbyss_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1698442729770285, "dur":5245214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698442735062974, "dur":2684, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
