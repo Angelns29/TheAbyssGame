@@ -12,8 +12,8 @@ public class KeepEventSystem : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(instance);
+            DontDestroyOnLoad(gameObject);
         }
-        else Destroy(instance);
+        else Destroy(gameObject);
     }
 }

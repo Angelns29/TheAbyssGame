@@ -10,8 +10,8 @@ using UnityEngine.SceneManagement;
 public class PlayerLife : MonoBehaviour
 {
     private Animator _animator;
-    private Rigidbody2D _rb;
-    private Transform _player;
+    private static Rigidbody2D _rb;
+    private static Transform _player;
     private SpriteRenderer _sr;
     public SoundManagerScript soundManager;
     private ChangeLevel _changeLevel;
@@ -26,6 +26,8 @@ public class PlayerLife : MonoBehaviour
         _sr = GetComponent<SpriteRenderer>();
         soundManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<SoundManagerScript>();
         _changeLevel = GetComponent<ChangeLevel>();
+
+        _player.position = GetCheckpoint();
     }
     void Update()
     {
@@ -36,9 +38,9 @@ public class PlayerLife : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Trap") || collision.gameObject.CompareTag("Enemy"))
         {
-            if (CharacterAnimations.gravityActive == false)
+            if (CharacterAnimations.instance.gravityActive == false)
             {
-                CharacterAnimations.gravityActive = true;
+                CharacterAnimations.instance.gravityActive = true;
                 ChangeGravity();
                 _animator.SetBool("isDeath", true);
                 soundManager.PlaySFX(soundManager.death);
@@ -77,12 +79,12 @@ public class PlayerLife : MonoBehaviour
         scaler.y *= -1;
         player.localScale = scaler;
     }
-    public void ChangeGravity()
+    public static void ChangeGravity()
     {
-        CharacterAnimations._isFacingRight = !CharacterAnimations._isFacingRight;
+        CharacterAnimations.instance._isFacingRight = !CharacterAnimations.instance._isFacingRight;
         _player.Rotate(0, 0, 180);
-        CharacterAnimations._gravity *= -1;
-        _rb.gravityScale = CharacterAnimations._gravity;
+        CharacterAnimations.instance._gravity *= -1;
+        _rb.gravityScale = CharacterAnimations.instance._gravity;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -107,11 +109,9 @@ public class PlayerLife : MonoBehaviour
         if (newCheckpoint != null)
         {
             return newCheckpoint.transform.position;
-            //player.position = new Vector3(-10,-15,0);//GameController.activeCheckpoint.position;
         }
         else
         {
-            //Debug.LogError("No se encontro el Checkpoint");
             SceneManager.LoadScene(--ChangeLevel.sceneNum);
             return ChangeLevel.checkpoint;
 

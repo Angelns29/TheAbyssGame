@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -168,51 +169,51 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 640}
+      Script: {instanceID: 638}
     - Class: 114
-      Script: {instanceID: 16672}
+      Script: {instanceID: 16670}
     - Class: 114
-      Script: {instanceID: 17390}
+      Script: {instanceID: 17388}
     - Class: 114
-      Script: {instanceID: 17918}
+      Script: {instanceID: 17916}
     - Class: 114
-      Script: {instanceID: 18168}
+      Script: {instanceID: 18166}
     - Class: 114
-      Script: {instanceID: 18516}
+      Script: {instanceID: 18514}
     - Class: 114
-      Script: {instanceID: 19362}
+      Script: {instanceID: 19360}
     - Class: 114
-      Script: {instanceID: 19494}
+      Script: {instanceID: 19492}
     - Class: 114
-      Script: {instanceID: 19658}
+      Script: {instanceID: 19656}
     - Class: 114
-      Script: {instanceID: 19698}
+      Script: {instanceID: 19696}
     - Class: 114
-      Script: {instanceID: 19782}
+      Script: {instanceID: 19780}
     - Class: 114
-      Script: {instanceID: 19804}
+      Script: {instanceID: 19802}
     - Class: 114
-      Script: {instanceID: 20124}
+      Script: {instanceID: 20122}
     - Class: 114
-      Script: {instanceID: 20456}
+      Script: {instanceID: 20454}
     - Class: 114
-      Script: {instanceID: 21050}
+      Script: {instanceID: 21048}
     - Class: 114
-      Script: {instanceID: 21130}
+      Script: {instanceID: 21128}
     - Class: 114
-      Script: {instanceID: 21142}
+      Script: {instanceID: 21140}
     - Class: 114
-      Script: {instanceID: 21764}
+      Script: {instanceID: 21762}
     - Class: 114
-      Script: {instanceID: 21972}
+      Script: {instanceID: 21970}
     - Class: 114
-      Script: {instanceID: 21980}
+      Script: {instanceID: 21978}
     - Class: 114
-      Script: {instanceID: 22350}
+      Script: {instanceID: 22346}
     - Class: 114
-      Script: {instanceID: 22386}
+      Script: {instanceID: 22382}
     - Class: 114
-      Script: {instanceID: 22922}
+      Script: {instanceID: 22918}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -269,9 +270,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 640}
+      Script: {instanceID: 638}
     - Class: 114
-      Script: {instanceID: 23716}
+      Script: {instanceID: 23712}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -320,9 +321,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 640}
+      Script: {instanceID: 638}
     - Class: 114
-      Script: {instanceID: 23716}
+      Script: {instanceID: 23712}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -371,9 +372,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 640}
+      Script: {instanceID: 638}
     - Class: 114
-      Script: {instanceID: 23716}
+      Script: {instanceID: 23712}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -422,13 +423,13 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 640}
+      Script: {instanceID: 638}
     - Class: 114
-      Script: {instanceID: 21130}
+      Script: {instanceID: 21128}
     - Class: 114
-      Script: {instanceID: 21642}
+      Script: {instanceID: 21640}
     - Class: 114
-      Script: {instanceID: 23716}
+      Script: {instanceID: 23712}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -477,11 +478,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 640}
+      Script: {instanceID: 638}
     - Class: 114
-      Script: {instanceID: 17086}
+      Script: {instanceID: 17084}
     - Class: 114
-      Script: {instanceID: 23716}
+      Script: {instanceID: 23712}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -524,7 +525,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 640}
+      Script: {instanceID: 638}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -567,7 +568,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 640}
+      Script: {instanceID: 638}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1073,7 +1074,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 3cec128dd645ab12794ed7f4891dfd8c
+      Hash: cd32bd8534595dbae470de323b19c70b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ChangeLevel
@@ -1103,7 +1104,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: db2a4ce028ba0a5e6d5b3e5ac0a75814
+      Hash: 7bf8a295b5de1b7fceb701f43af8cda8
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CharacterAnimations
@@ -1193,7 +1194,7 @@ ScriptsOnlyBuild:
     className: BufferManager
   - hash:
       serializedVersion: 2
-      Hash: 27588824d1c8f86b3c6dbfc659f770ff
+      Hash: c85c6dc069a52212bff93e030cc214bf
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIManager
@@ -1337,7 +1338,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 4c0dc1fe1d6be3908ecef3c59735be07
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ProyectilMovement
@@ -1397,7 +1398,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 0f94e9ff1e17ef2fea9dd63690c54786
+      Hash: 1f70e345b44facee27637cf5e39c6ce9
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SpawnBoom
@@ -1446,12 +1447,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BoomPool
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
@@ -1469,7 +1464,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStay2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3da1387d022c56446e49fb40109439ac
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: KeepEventSystem
@@ -1565,7 +1560,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 59ea3a6d25034772dcecedc7d8246a69
+      Hash: 9a53304ce374676deb50e0024b2ce3fa
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SoundManagerScript

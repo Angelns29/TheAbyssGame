@@ -27,23 +27,16 @@ public class EnemyMovement : MonoBehaviour
     {
         if (movingLeft)
         {
-            if (enemy.position.x >= leftEdge.position.x)
-            {
-                MoveInDirection(-1);
-            }
+            if (enemy.position.x >= leftEdge.position.x)MoveInDirection(-1);
             else
             {
                 soundManager.PlaySFX(soundManager.enemy);
                 ChangeDirection();
-            }
-            
+            }   
         }
         else
         {
-            if (enemy.position.x <= rightEdge.position.x)
-            {
-                MoveInDirection(1);
-            }
+            if (enemy.position.x <= rightEdge.position.x) MoveInDirection(1);
             else
             {
                 soundManager.PlaySFX(soundManager.enemy);

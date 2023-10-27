@@ -20,9 +20,9 @@ public class CharacterAnimations : MonoBehaviour
     private float _vertical;
     private float _roll;
     private float _speed;
-    public static int _gravity;
-    public static bool _isFacingRight;
-    public static bool gravityActive = true;
+    public  int _gravity;
+    public  bool _isFacingRight;
+    public  bool gravityActive = true;
 
     // Start is called before the first frame update
     void Awake()
@@ -78,7 +78,6 @@ public class CharacterAnimations : MonoBehaviour
         else
         {
             _animator.SetBool("isRolling", false);
-            //_animator.SetBool("isRunning", true);
         }
 
         
@@ -117,6 +116,7 @@ public class CharacterAnimations : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+
         }
     }
     public void ChangeGravity()

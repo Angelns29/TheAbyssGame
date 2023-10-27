@@ -1802,7 +1802,7 @@ MonoBehaviour:
   leftEdge: {fileID: 1832030489}
   rightEdge: {fileID: 2064695641}
   enemy: {fileID: 878012080}
-  speed: 1
+  speed: 5
   soundManager: {fileID: 0}
 --- !u!4 &1536474057
 Transform:

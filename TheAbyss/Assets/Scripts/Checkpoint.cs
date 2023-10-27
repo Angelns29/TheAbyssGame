@@ -5,8 +5,8 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
     private Animator _animator;
-    [HideInInspector]
-    public bool isActive;
+    [HideInInspector] public bool isActive;
+
     public void Start()
     {
         _animator = GetComponent<Animator>();

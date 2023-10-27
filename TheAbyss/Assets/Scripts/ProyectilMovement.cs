@@ -16,6 +16,8 @@ public class ProyectilMovement : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _tr =  GetComponent<Transform>();
+        GameObject go = GameObject.Find("SoundManager");
+        _soundManager= go.GetComponent<SoundManagerScript>();
     }
     public void Move()
     {

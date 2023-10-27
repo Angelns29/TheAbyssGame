@@ -8,6 +8,7 @@ public class ChangeLevel : MonoBehaviour
 {
     public static int sceneNum = 0;
     public Transform player;
+    public Rigidbody2D playerRb;
     [NonSerialized]public static Vector3 checkpoint;
     public UIManager _canvasManager;
     public SoundManagerScript _soundManager;
@@ -17,34 +18,32 @@ public class ChangeLevel : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Vector3 Position;
+        Vector3 position;
         switch (collision.gameObject.name)
         {
             case "NextLevel":
                 sceneNum++;
                 SceneManager.LoadScene(sceneNum);
-                Position = GetLoadPJ();
-                player.position = new Vector3(Position.x, player.position.y, player.position.z);
-                //DontDestroyOnLoad(gameObject);
+                position = GetLoadPJ();
+                player.position = new Vector3(position.x, player.position.y, player.position.z);
                 break;
             case "ReturnLevel":
                 sceneNum--;
                 SceneManager.LoadScene(sceneNum);
-                Position = GetLoadPJ();
-                player.position = new Vector3(-Position.x, player.position.y, player.position.z);
+                position = GetLoadPJ();
+                player.position = new Vector3(-position.x, player.position.y, player.position.z);
                 break;
             case "NextLevelUp":
                 sceneNum++;
                 SceneManager.LoadScene(sceneNum);
-                Position = GetLoadPJ();
-                player.position = new Vector3(player.position.x, Position.y, player.position.z);
-                //DontDestroyOnLoad(gameObject);
+                position = GetLoadPJ();
+                player.position = new Vector3(player.position.x, position.y, player.position.z);
                 break;
             case "ReturnLevelDown":
                 sceneNum--;
                 SceneManager.LoadScene(sceneNum);
-                Position = GetLoadPJ();
-                player.position = new Vector3(player.position.x, Position.y + 7, player.position.z);
+                position = GetLoadPJ();
+                player.position = new Vector3(player.position.x, position.y + 7, player.position.z);
                 break;
             case "Final":
                 _soundManager.PlayFinalSong();
@@ -52,13 +51,26 @@ public class ChangeLevel : MonoBehaviour
                 break;
         }
     }
+    public void PlayAgain()
+    {
+        if (UIManager.uiManager.resetGame == true)
+        {
+            sceneNum = 0;
+            SceneManager.LoadScene(sceneNum);
+            StartCoroutine(ResetGame());
+        }
+    }
+    IEnumerator ResetGame()
+    {
+        yield return null;
+        player.position = GetCheckpoint();
+    }
     Vector3 GetLoadPJ()
     {
         GameObject newCheckpoint = GameObject.Find("LoadPj");
         if (newCheckpoint != null) return newCheckpoint.transform.position;
         else
         {
-            Debug.LogError("No se encontro el empty LoadPj");
             return checkpoint;
         }
     }
@@ -68,7 +80,6 @@ public class ChangeLevel : MonoBehaviour
         if (newCheckpoint != null) return newCheckpoint.transform.position; 
         else
         {
-            //Debug.LogError("No se encontro el Checkpoint");
             return checkpoint;
 
         }
